@@ -54,6 +54,7 @@ def wait_for_element_with_retry(driver, by, value, max_retries=3):
         except TimeoutException:
             retries += 1
             print(f"Retry {retries} - Timed out waiting for element.")
+
     raise TimeoutException("Max retries reached. Element not found.")
 
 
