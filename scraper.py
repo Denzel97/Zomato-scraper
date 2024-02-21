@@ -9,18 +9,20 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
 import re
-from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import NoSuchElementException, TimeoutException
+
 
 # Function to initialize the Chrome WebDriver
-def initialize_driver():
+def initialize_driver(headless=True):
     chrome_options = Options()
-    chrome_options.add_argument('--headless')
+
+    if headless:
+        chrome_options.add_argument('--headless')
 
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.71 Safari/537.36'
     }
 
-    chrome_options.add_argument(f'user-agent={headers["User-Agent"]}')
     chrome_options.add_argument(f'user-agent={headers["User-Agent"]}')
 
     chrome_service = ChromeService(executable_path='C:/Users/fredr/Desktop/chromedriver-win64/chromedriver.exe')
@@ -28,41 +30,35 @@ def initialize_driver():
 
     return driver
 
-# Function to scroll to the end of the page
-def scroll_to_end(driver):
-    body = driver.find_element(By.TAG_NAME, 'body')
-    body.send_keys(Keys.END)
+
+# Function to scroll to a specified height from the bottom of the page
+def scroll_to_height(driver, height):
+    # Scroll to the specified height from the bottom
+    driver.execute_script(f"window.scrollTo(0, document.body.scrollHeight - {height});")
+
+    # Wait for new content to load
+    wait_for_content_load(driver)
+
 
 # Function to wait for new content to load after scrolling
 def wait_for_content_load(driver):
     time.sleep(3)  # Adjust sleep duration if needed
 
-# Initialize the Chrome WebDriver with headless option
-driver = initialize_driver()
 
-# URL to scrape (replace with your actual URL)
-url = "https://www.zomato.com/bangalore/delivery"
+# Function to wait for an element with retries
+def wait_for_element_with_retry(driver, by, value, max_retries=3):
+    retries = 0
+    while retries < max_retries:
+        try:
+            return WebDriverWait(driver, 30).until(EC.presence_of_element_located((by, value)))
+        except TimeoutException:
+            retries += 1
+            print(f"Retry {retries} - Timed out waiting for element.")
+    raise TimeoutException("Max retries reached. Element not found.")
 
-# Fetch dynamic content using Selenium
-driver.get(url)
 
-# Function to perform multiple scrolls to load more content
-def perform_scrolls(driver, max_scroll_attempts=2):
-    scroll_attempts = 0
-    while scroll_attempts < max_scroll_attempts:
-        scroll_to_end(driver)
-        wait_for_content_load(driver)
-        scroll_attempts += 1
-
-# Perform multiple scrolls to load more content
-perform_scrolls(driver)
-
-# Lists to store data for CSV
-restaurants_data = []
-restaurant_details_data = []
-
-# Extract and store information for each restaurant block
-for idx, restaurant_block in enumerate(driver.find_elements(By.CLASS_NAME, 'sc-hAcydR'), start=1):
+# Function to extract restaurant information from a given block
+def extract_restaurant_info(restaurant_block):
     # Extracting restaurant link
     restaurant_link_tag = restaurant_block.find_element(By.CSS_SELECTOR, 'a.sc-ePDpFu.gjRRBQ')
     restaurant_link = restaurant_link_tag.get_attribute('href')
@@ -71,22 +67,57 @@ for idx, restaurant_block in enumerate(driver.find_elements(By.CLASS_NAME, 'sc-h
     restaurant_name_tag = restaurant_block.find_element(By.CLASS_NAME, 'sc-1hp8d8a-0')
     restaurant_name = restaurant_name_tag.text.strip()
 
-    # Extracting restaurant image using Selenium
-    # Wait for images to load explicitly
-    wait = WebDriverWait(driver, 10)
-    wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'sc-s1isp7-5')))
-    restaurant_image_tag = restaurant_block.find_element(By.CLASS_NAME, 'sc-s1isp7-5')
+    # Extracting restaurant image
+    restaurant_image_tag = restaurant_block.find_element(By.CSS_SELECTOR, '[class*="sc-s1isp7-5"]')
     restaurant_image = restaurant_image_tag.get_attribute('src')
 
+    return {'name': restaurant_name, 'link': restaurant_link, 'image': restaurant_image}
+
+
+# Function to wait for images to be present after scrolling
+def wait_for_images_present(driver):
+    wait = WebDriverWait(driver, 10)
+    wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, 'sc-s1isp7-5')))
+
+# Function to perform multiple scrolls to load more content
+def perform_scrolls(driver, max_scroll_attempts=1, start_scroll_height=600):
+    scroll_attempts = 0
+    while scroll_attempts < max_scroll_attempts:
+        scroll_to_height(driver, start_scroll_height)
+        wait_for_images_present(driver)  # Wait for images to be present after each scroll
+        start_scroll_height += 600  # Adjust the scroll height as needed
+        scroll_attempts += 1
+
+
+# Initialize the Chrome WebDriver with headless option
+driver = initialize_driver(headless=False)
+
+# URL to scrape (replace with your actual URL)
+url = "https://www.zomato.com/bangalore/delivery"
+
+# Fetch dynamic content using Selenium
+driver.get(url)
+
+# Perform multiple scrolls to load more content from bottom to top
+perform_scrolls(driver, max_scroll_attempts=42, start_scroll_height=2000)  # Adjust the start_scroll_height as needed
+
+# Lists to store data for CSV
+restaurants_data = []
+restaurant_details_data = []
+
+# Extract and store information for each restaurant block
+for idx, restaurant_block in enumerate(driver.find_elements(By.CLASS_NAME, 'sc-hAcydR'), start=1):
+    restaurant_info = extract_restaurant_info(restaurant_block)
+
     # Append data to the lists
-    restaurants_data.append({'id': idx, 'name': restaurant_name, 'link': restaurant_link, 'image': restaurant_image})
+    restaurants_data.append({'id': idx, **restaurant_info})
 
     # Print restaurant details
     print(f"\nRestaurant #{idx}")
-    print("Restaurant Name:", restaurant_name)
-    print("Restaurant Link:", restaurant_link)
-    print("Restaurant Image:", restaurant_image)
-    print("----------------------------------------", "\n")
+    print("Restaurant Name:", restaurant_info['name'])
+    print("Restaurant Link:", restaurant_info['link'])
+    print("Restaurant Image:", restaurant_info['image'])
+    print("----------------------------------------")
 
 # Create DataFrame for restaurants
 restaurants_df = pd.DataFrame(restaurants_data)
@@ -100,7 +131,8 @@ for idx, row in restaurants_df.iterrows():
     driver.get(restaurant_link)
 
     # Wait for the relevant content to load on the restaurant page (adjust wait time if needed)
-    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, 'sc-1q7bklc-5')))
+    wait_for_element_with_retry(driver, By.CLASS_NAME, 'sc-1q7bklc-5')
+
 
     # Extract delivery rating
     try:
@@ -112,7 +144,7 @@ for idx, row in restaurants_df.iterrows():
         delivery_rating_numeric = None
 
     print(f"\nRestaurant #{idx}")
-    print(delivery_rating_numeric)
+    print("Delivery Rating:", delivery_rating_numeric)
     print("----------------------------------------", "\n")
 
     # Extract delivery review number

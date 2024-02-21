@@ -1,34 +1,514 @@
 id,name,link,image
-1,Leon's Burgers & Wings,https://www.zomato.com/bangalore/leons-burgers-wings-frazer-town-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/1/60551/60afc26a8d420799fc8bc7e27c968951_o2_featured_v2.jpg?output-format=webp
-2,Empire Restaurant,https://www.zomato.com/bangalore/empire-restaurant-shivajinagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/1/50471/6fa39637442e85efb64a5c0db7b31b7f_o2_featured_v2.jpg?output-format=webp
-3,Kannur Food Point,https://www.zomato.com/bangalore/kannur-food-point-btm/order,https://b.zmtcdn.com/data/pictures/chains/2/57282/2e488a2fdd92381877295b81802c1a33_o2_featured_v2.jpg?output-format=webp
-4,Behrouz Biryani,https://www.zomato.com/bangalore/behrouz-biryani-shanti-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/3/18343993/a8c84349c1138e70cf3870a850f5e29d_o2_featured_v2.jpg?output-format=webp
-5,Burger King,https://www.zomato.com/bangalore/burger-king-commercial-street/order,https://b.zmtcdn.com/data/pictures/chains/5/61555/8c49ba335683507ba6ddee2dc84966e8_o2_featured_v2.jpg?output-format=webp
-6,Donne Biryani Adda,https://www.zomato.com/bangalore/donne-biryani-adda-indiranagar-bangalore/order,https://b.zmtcdn.com/data/pictures/1/19684181/14dddc8d4d8c5d55bd6ab839752e787f_o2_featured_v2.jpg?output-format=webp
-7,Pizza Hut,https://www.zomato.com/bangalore/pizza-hut-shanti-nagar/order,https://b.zmtcdn.com/data/pictures/chains/8/51418/e81f66522df2f3dbc3c9d0aa3ce0756d_o2_featured_v2.jpg?output-format=webp
-8,Sreeraj Lassi Bar - Since 1973,https://www.zomato.com/bangalore/sreeraj-lassi-bar-since-1973-shivajinagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/2/53762/10fbea584a3f287b5999dabf63ceeb03_o2_featured_v2.jpg?output-format=webp
-9,The Cake Deluxe,https://www.zomato.com/bangalore/the-cake-deluxe-rajajinagar-bangalore/order,https://b.zmtcdn.com/data/pictures/1/19872631/9c86c4c5b95709fb2a1f197bde7ff646_o2_featured_v2.jpg?output-format=webp
-10,Meghana Foods,https://www.zomato.com/bangalore/meghana-foods-residency-road/order,
-11,KFC,https://www.zomato.com/bangalore/kfc-brigade-road-bangalore/order,
-12,McDonald's,https://www.zomato.com/bangalore/mcdonalds-mg-road/order,
-13,EasyBites By Empire,https://www.zomato.com/bangalore/easybites-by-empire-brigade-road-bangalore/order,
-14,Imperial Restaurant - Since 1954,https://www.zomato.com/bangalore/imperial-restaurant-since-1954-residency-road-bangalore/order,
-15,La Pino'z Pizza,https://www.zomato.com/bangalore/la-pinoz-pizza-frazer-town-bangalore/order,
-16,Polar Bear,https://www.zomato.com/bangalore/polar-bear-1-basavanagudi/order,
-17,Al-Bek,https://www.zomato.com/bangalore/al-bek-rajajinagar-bangalore/order,
-18,Nandhana Palace,https://www.zomato.com/bangalore/nandhana-palace-indiranagar/order,
-19,Onesta,https://www.zomato.com/bangalore/onesta-indiranagar-bangalore/order,
-20,Namaste,https://www.zomato.com/bangalore/namaste-vijay-nagar-bangalore/order,
-21,Wendy's Burgers,https://www.zomato.com/bangalore/wendys-burgers-shanti-nagar-bangalore/order,
-22,Bakingo,https://www.zomato.com/bangalore/bakingo-vasanth-nagar-bangalore/order,
-23,Royal Restaurant,https://www.zomato.com/bangalore/royal-restaurant-shivajinagar/order,
-24,Mani's Dum Biryani,https://www.zomato.com/manis/order,
-25,Kwality Wall’s Frozen Dessert and Ice Cream Shop,https://www.zomato.com/bangalore/kwality-walls-frozen-dessert-and-ice-cream-shop-1-seshadripuram-bangalore/order,
-26,New Taj Darbar,https://www.zomato.com/bangalore/new-taj-darbar-shivajinagar-bangalore/order,
-27,CakeZone Patisserie,https://www.zomato.com/cakeszone/order,
-28,Pizza@99,https://www.zomato.com/bangalore/pizza@99-rajajinagar-bangalore/order,
-29,Chicking,https://www.zomato.com/bangalore/chicking-1-rajajinagar-bangalore/order,
-30,Beijing Bites,https://www.zomato.com/bangalore/beijing-bites-richmond-road/order,
-31,Sharief Bhai,https://www.zomato.com/bangalore/sharief-bhai-frazer-town-bangalore/order,
-32,Rolls On Wheels - Shawarma & Wraps,https://www.zomato.com/bangalore/rolls-on-wheels-shawarma-wraps-cunningham-road-bangalore/order,
-33,Chinese Wok,https://www.zomato.com/bangalore/chinese-wok-hosur-road-bangalore/order,
+1,Empire Restaurant,https://www.zomato.com/bangalore/empire-restaurant-shivajinagar-bangalore/order,
+2,Imperial Restaurant - Since 1954,https://www.zomato.com/bangalore/imperial-restaurant-since-1954-residency-road-bangalore/order,
+3,KFC,https://www.zomato.com/bangalore/kfc-brigade-road-bangalore/order,
+4,A2B - Adyar Ananda Bhavan,https://www.zomato.com/bangalore/a2b-adyar-ananda-bhavan-1-shanti-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/5/20279385/8e81b350b339e67c0aadf93277c4eb83_o2_featured_v2.jpg?output-format=webp
+5,Maven Kitchen,https://www.zomato.com/bangalore/maven-kitchen-ejipura-bangalore/order,https://b.zmtcdn.com/data/pictures/9/19339139/f4224833a44735fa3c8b182c2a81f4a1_o2_featured_v2.jpg?output-format=webp
+6,EasyBites By Empire,https://www.zomato.com/bangalore/easybites-by-empire-brigade-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/8/18796818/ba35b3ec1f69bc381f73152d214c9df2_o2_featured_v2.jpg?output-format=webp
+7,Royal Restaurant,https://www.zomato.com/bangalore/royal-restaurant-shivajinagar/order,https://b.zmtcdn.com/data/pictures/chains/2/52122/56792a94504e5cbdccce4fc0c987e259_o2_featured_v2.jpg?output-format=webp
+8,La Pino'z Pizza,https://www.zomato.com/bangalore/la-pinoz-pizza-frazer-town-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/2/18692582/54b6de34323395a3b10897e48bd2a6e5_o2_featured_v2.jpg?output-format=webp
+9,Aubree,https://www.zomato.com/bangalore/aubree-shivajinagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/5/59175/025833bfb26ccfb206894085a1b22550_o2_featured_v2.jpg?output-format=webp
+10,Meghana Foods,https://www.zomato.com/bangalore/meghana-foods-residency-road/order,https://b.zmtcdn.com/data/pictures/chains/1/50691/92d9b4053ef0965120828b4fa4eecc3b_o2_featured_v2.jpg
+11,Nagarjuna,https://www.zomato.com/bangalore/nagarjuna-residency-road/order,https://b.zmtcdn.com/data/pictures/chains/8/50708/486d8f30ecda00b9ce9de7dc14c6fe0b_o2_featured_v2.jpg
+12,Bowl Soul,https://www.zomato.com/bangalore/bowl-soul-richmond-town-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/1/20081031/bb650a06b1b9ea242a122fb5b7aa6b60_o2_featured_v2.jpg
+13,Paragon Restaurant - Since 1939,https://www.zomato.com/bangalore/paragon-restaurant-since-1939-st-marks-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/2/20801352/d9ca2f91b24d9bcd1058ffc849568cbf_o2_featured_v2.jpg
+14,Tomba Kitchens,https://www.zomato.com/bangalore/tomba-kitchens-ejipura-bangalore/order,https://b.zmtcdn.com/images/placeholder_200.png?output-quality=70
+15,Burger King,https://www.zomato.com/bangalore/burger-king-commercial-street/order,https://b.zmtcdn.com/data/pictures/chains/5/61555/8c49ba335683507ba6ddee2dc84966e8_o2_featured_v2.jpg
+16,Pizza Hut,https://www.zomato.com/bangalore/pizza-hut-shanti-nagar/order,https://b.zmtcdn.com/data/pictures/chains/8/51418/e81f66522df2f3dbc3c9d0aa3ce0756d_o2_featured_v2.jpg
+17,McDonald's,https://www.zomato.com/bangalore/mcdonalds-mg-road/order,https://b.zmtcdn.com/data/pictures/7/50677/d26fd40a53ce982cdbb076febd96a380_o2_featured_v2.jpg
+18,Nandhana Palace,https://www.zomato.com/bangalore/nandhana-palace-indiranagar/order,https://b.zmtcdn.com/data/pictures/5/50715/011d3ade7fbf4a5033ac331087f0f90b_o2_featured_v2.jpg
+19,Mani's Dum Biryani,https://www.zomato.com/bangalore/manis-dum-biryani-ulsoor/order,https://b.zmtcdn.com/data/pictures/chains/3/50643/cf4980e9a955625c8ab8bf5c171ba98a_o2_featured_v2.jpg
+20,Thalassery Restaurant,https://www.zomato.com/bangalore/thalassery-restaurant-koramangala-5th-block-bangalore/order,https://b.zmtcdn.com/data/pictures/5/20963405/ef8ebfd27de07101b1ea184c89f824f3_o2_featured_v2.jpg
+21,Kanti Sweets,https://www.zomato.com/bangalore/kanti-sweets-brigade-road/order,https://b.zmtcdn.com/data/pictures/chains/0/50550/3028ae83d6b6a3450c0a93c83b20f949_o2_featured_v2.jpg
+22,FreshMenu,https://www.zomato.com/bangalore/freshmenu-richmond-road/order,https://b.zmtcdn.com/data/pictures/chains/9/59179/5f7bf812d94df2066e492e7f5ab7dcb6_o2_featured_v2.jpg
+23,Andhra Gunpowder,https://www.zomato.com/bangalore/andhra-gunpowder-seshadripuram-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/9/19051939/631e94b5e92a24f8dc745a253a4caeeb_o2_featured_v2.jpg
+24,Biriyani Zone,https://www.zomato.com/bangalore/biriyani-zone-thippasandra-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/9/51139/5b7c92446f60085ca135c91cac8b5a54_o2_featured_v2.jpg
+25,Truffles,https://www.zomato.com/bangalore/truffles-2-st-marks-road/order,https://b.zmtcdn.com/data/pictures/chains/9/51039/e3e149c669fa5d2e3f57221a2c394697_o2_featured_v2.jpg
+26,Polar Bear,https://www.zomato.com/bangalore/polar-bear-1-basavanagudi/order,https://b.zmtcdn.com/data/pictures/chains/2/50812/21c544e626cbf40a91c8b236014b2682_o2_featured_v2.jpg
+27,Dindigul Thalappakatti,https://www.zomato.com/bangalore/dindigul-thalappakatti-mg-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/2/18817272/5d4040eeaef9f042ec8ec845f9b1911f_o2_featured_v2.jpg
+28,Nandhini Deluxe,https://www.zomato.com/bangalore/nandhini-deluxe-st-marks-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/4/50714/527f3baa5ed9aa3a739c36f9fc410404_o2_featured_v2.jpg
+29,Five Star Chicken,https://www.zomato.com/bangalore/five-star-chicken-richmond-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/9/55129/a3a6bd12b817d41c33a6d78ddcbb4cfc_o2_featured_v2.jpg
+30,Sharief Bhai,https://www.zomato.com/bangalore/sharief-bhai-frazer-town-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/6/18613656/d3076b5ba74eeab01fc7491493b5bf7a_o2_featured_v2.jpg
+31,California Burrito,https://www.zomato.com/bangalore/california-burrito-malleshwaram/order,https://b.zmtcdn.com/data/pictures/chains/2/53922/2cc325e095dfa78bf99324794c0739fa_o2_featured_v2.jpg
+32,Onesta,https://www.zomato.com/bangalore/onesta-malleshwaram-bangalore/order,https://b.zmtcdn.com/data/pictures/6/20525316/56943981f20d1fdc7117583c79e2414e_o2_featured_v2.jpg
+33,Al-Bek,https://www.zomato.com/bangalore/al-bek-malleshwaram/order,https://b.zmtcdn.com/data/pictures/chains/6/50036/c5e37d1690f8c195bcc9f58ae609a2dc_o2_featured_v2.jpg
+34,Leon's Burgers & Wings,https://www.zomato.com/bangalore/leons-burgers-wings-frazer-town-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/1/60551/60afc26a8d420799fc8bc7e27c968951_o2_featured_v2.jpg
+35,Beijing Bites,https://www.zomato.com/bangalore/beijing-bites-richmond-road/order,https://b.zmtcdn.com/data/pictures/chains/2/50112/c4aca0118053549e762faa92c378e36e_o2_featured_v2.jpg
+36,Hyderabad Biryaani House - Since 2003,https://www.zomato.com/bangalore/hyderabad-biryaani-house-since-2003-richmond-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/2/50492/a953f8fa0a160a947dd5a3b82dae8b5e_o2_featured_v2.jpg
+37,Chickpet Donne Biryani House,https://www.zomato.com/bangalore/chickpet-donne-biryani-house-banashankari-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/6/18414356/522c841b508bc12db4802df4fdd88b18_o2_featured_v2.jpg
+38,RNR Biryani - Taste Of 1953,https://www.zomato.com/bangalore/rnr-biryani-taste-of-1953-indiranagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/7/20246497/2b6f80091e6478fad73c73f5dca84270_o2_featured_v2.jpg
+39,Kannur Food Point,https://www.zomato.com/bangalore/kannur-food-point-btm/order,https://b.zmtcdn.com/data/pictures/chains/2/57282/2e488a2fdd92381877295b81802c1a33_o2_featured_v2.jpg
+40,Namaste,https://www.zomato.com/bangalore/namaste-1-ulsoor-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/0/18924790/2bb03e756465e70fee66ed043a4fa6f0_o2_featured_v2.jpeg
+41,Ambur Star Briyani Since 1890,https://www.zomato.com/bangalore/ambur-star-briyani-since-1890-indiranagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/3/52953/d24dff2ca90b02e71cc86ce2981c9118_o2_featured_v2.jpg
+42,Corner House Ice Creams,https://www.zomato.com/bangalore/corner-house-ice-creams-residency-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/3/53923/f1ed8209bf84106c577ebd774dd7194b_o2_featured_v2.jpg
+43,Paakashala,https://www.zomato.com/bangalore/paakashala-mg-road-bangalore/order,https://b.zmtcdn.com/data/pictures/3/19209813/98662a5e0bbd80f8735b5bb48ebbfc8d_o2_featured_v2.jpg
+44,Kabab Magic,https://www.zomato.com/bangalore/kabab-magic-richmond-town-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/3/51983/cac8f99bc1b9c299e4283cc2722e22ed_o2_featured_v2.jpg
+45,Sri Udupi Food Hub,https://www.zomato.com/bangalore/sri-udupi-food-hub-majestic-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/0/18683480/c9759695c5e14e06927dc556c5f5674f_o2_featured_v2.jpg
+46,Wendy's Burgers,https://www.zomato.com/bangalore/wendys-burgers-shanti-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/2/19813432/cd6ce0f63cbf06f343de64700ee68ffe_o2_featured_v2.jpg
+47,Subway,https://www.zomato.com/bangalore/subway-lavelle-road/order,https://b.zmtcdn.com/data/pictures/chains/4/55634/004b9add9891d69a91cfacf9b7bb2818_o2_featured_v2.jpg
+48,Bakingo,https://www.zomato.com/bangalore/bakingo-vasanth-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/1/18655281/2b35fdc7371dcd5de45f691dcafec66c_o2_featured_v2.jpg
+49,Anand Sweets And Savouries,https://www.zomato.com/bangalore/anand-sweets-and-savouries-commercial-street-bangalore/order,https://b.zmtcdn.com/data/pictures/9/53219/9641bc40fa7534ecfb9d2952a21458e9_o2_featured_v2.jpg
+50,EatFit,https://www.zomato.com/bangalore/eatfit-cunningham-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/3/18548293/b2daa8280cfa4aef1d16e31d97d98eac_o2_featured_v2.jpg
+51,CakeZone Patisserie,https://www.zomato.com/bangalore/cakezone-patisserie-hosur-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/7/18379377/0f3eef86f5391552cd1f389134898131_o2_featured_v2.jpg
+52,Faasos - Wraps & Rolls,https://www.zomato.com/bangalore/faasos-wraps-rolls-shanti-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/8/54308/81cab239d11c646e76cc35b01b25c180_o2_featured_v2.jpg
+53,Paradise Biryani - A Legend Since 1953,https://www.zomato.com/bangalore/paradise-biryani-a-legend-since-1953-rajajinagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/0/59680/ffe818f31c56896e014f59c7b711568c_o2_featured_v2.jpg
+54,Narmada Chain of Restaurants,https://www.zomato.com/bangalore/narmada-chain-of-restaurants-frazer-town-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/7/20273127/f15dc3b2bf69af937c31389c021be7a1_o2_featured_v2.jpg
+55,Behrouz Biryani,https://www.zomato.com/bangalore/behrouz-biryani-shanti-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/3/18343993/a8c84349c1138e70cf3870a850f5e29d_o2_featured_v2.jpg
+56,Chinese Wok,https://www.zomato.com/bangalore/chinese-wok-malleshwaram-bangalore/order,https://b.zmtcdn.com/data/pictures/8/19967908/d26a19eb9a008f75323c09ed12ef25a6_o2_featured_v2.jpg
+57,Kannur Food Kitchen,https://www.zomato.com/bangalore/kannur-food-kitchen-btm-bangalore/order,https://b.zmtcdn.com/data/pictures/4/19535924/e444676e6ebb3707de33f56c8fb9d782_o2_featured_v2.jpg
+58,Chicpet Donne Biriyani House,https://www.zomato.com/bangalore/chicpet-donne-biriyani-house-koramangala-7th-block-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/6/60846/ea8d02a09f700dd295ab1d26d981438b_o2_featured_v2.jpg
+59,Kapoor's Cafe,https://www.zomato.com/bangalore/kapoors-cafe-jayanagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/1/58271/ea3044ec553419682e64b98fd9340831_o2_featured_v2.jpg
+60,Sri Udupi Park,https://www.zomato.com/bangalore/sri-udupi-park-residency-road/order,https://b.zmtcdn.com/data/pictures/chains/6/59916/95177ed226010a6be13935df30d552e4_o2_featured_v2.jpg
+61,Vijayalakshmi Veg,https://www.zomato.com/bangalore/vijayalakshmi-veg-frazer-town-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/9/54259/2220a26c3db9c45bd2da2765d4d09b33_o2_featured_v2.jpg
+62,Amma's Pastries,https://www.zomato.com/bangalore/ammas-pastries-ulsoor/order,https://b.zmtcdn.com/data/pictures/chains/9/50019/0689040550c210408663e8024a7dc551_o2_featured_v2.jpg
+63,Roti-Wala.Com,https://www.zomato.com/bangalore/roti-wala-com-btm-bangalore/order,https://b.zmtcdn.com/data/pictures/8/18556248/bd1fa36b0f32ff22a6baf82d181757da_o2_featured_v2.jpg
+64,Thalairaj Biryani,https://www.zomato.com/bangalore/thalairaj-biryani-sadashiv-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/2/19494942/6c0a07c8eb3513757ac4802a1d03b21f_o2_featured_v2.jpg
+65,Taco Bell,https://www.zomato.com/bangalore/taco-bell-brigade-road-bangalore/order,https://b.zmtcdn.com/data/pictures/2/18820472/73a0331b3dd8388e0d510694f5d39474_o2_featured_v2.jpg
+66,Rolls On Wheels - Shawarma & Wraps,https://www.zomato.com/bangalore/rolls-on-wheels-shawarma-wraps-st-marks-road-bangalore/order,https://b.zmtcdn.com/data/pictures/9/20693119/bdb0f8393a4ab5732575614d6fec0157_o2_featured_v2.jpg
+67,Ambur Hot Dum Biryani,https://www.zomato.com/bangalore/ambur-hot-dum-biryani-4-btm-bangalore/order,https://b.zmtcdn.com/data/pictures/3/20862733/d5a2139c269fb272f5a523bbe71a85cb_o2_featured_v2.jpg
+68,Natural Ice Cream,https://www.zomato.com/bangalore/natural-ice-cream-st-marks-road/order,https://b.zmtcdn.com/data/pictures/4/50724/adb20cc3d424971e06802e03adcf5a44_o2_featured_v2.jpg
+69,The Belgian Waffle Co.,https://www.zomato.com/bangalore/the-belgian-waffle-co-seshadripuram-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/3/18624503/33c76f241b02e6657c0725d1da8f982e_o2_featured_v2.jpg
+70,Hotel Aditya- Mahalakshmipuram,https://www.zomato.com/bangalore/hotel-aditya-mahalakshmipuram-rajajinagar-bangalore/order,https://b.zmtcdn.com/data/pictures/6/18160106/4cc8147678cbd736146e9c9fc74b9686_o2_featured_v2.jpg
+71,Shivaji Military Hotel - Since 1935,https://www.zomato.com/bangalore/shivaji-military-hotel-since-1935-jayanagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/2/52752/9504965da2754e1b524f5e03cbafcfa1_o2_featured_v2.jpg
+72,Lassi Shop,https://www.zomato.com/bangalore/lassi-shop-1-residency-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/9/60069/b5715d104a2580bb908f126b8dee7028_o2_featured_v2.jpeg
+73,Priyadarshini Grand,https://www.zomato.com/bangalore/priyadarshini-grand-basaveshwara-nagar/order,https://b.zmtcdn.com/data/pictures/chains/0/60760/3579c898a8049ba8d6286e1d55a04187_o2_featured_v2.jpg
+74,Pizza@99,https://www.zomato.com/bangalore/pizza@99-rajajinagar-bangalore/order,https://b.zmtcdn.com/data/pictures/4/20193534/9fcfe4fd52273d3993f7735600d476e7_o2_featured_v2.jpg
+75,Big Bowl,https://www.zomato.com/bangalore/big-bowl-hosur-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/2/19715682/bb650a06b1b9ea242a122fb5b7aa6b60_o2_featured_v2.jpg
+76,Sai Prasadam,https://www.zomato.com/bangalore/sai-prasadam-vijay-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/4/17946104/e6b350fb7335280fb09d74bbbcf7dfd2_o2_featured_v2.jpg
+77,Kolkata Kathi Rolls,https://www.zomato.com/bangalore/kolkata-kathi-rolls-jp-nagar/order,https://b.zmtcdn.com/data/pictures/chains/2/18541482/ab24542264a097b434b8611da429cfea_o2_featured_v2.jpg
+78,LunchBox - Meals and Thalis,https://www.zomato.com/bangalore/lunchbox-meals-and-thalis-shanti-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/9/19410919/a350c22d22c1e538c68c35c85e7695bf_o2_featured_v2.jpg
+79,Chicking,https://www.zomato.com/bangalore/chicking-1-rajajinagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/0/19624800/4e7ea47a8a66ca4648939e523ef76207_o2_featured_v2.jpg
+80,Call Me Chow,https://www.zomato.com/bangalore/call-me-chow-sanjay-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/6/20945056/8f8e8f8a4c40e75073a3e66630a9de98_o2_featured_v2.jpg
+81,New Udupi Grand,https://www.zomato.com/bangalore/new-udupi-grand-jeevan-bhima-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/2/19240092/37a182b49c9fe5d1104c20b2bbbb4de4_o2_featured_v2.jpg
+82,Theobroma,https://www.zomato.com/bangalore/theobroma-lavelle-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/0/19938760/0d750fd78d11143d1ad49c41dfe3432a_o2_featured_v2.jpg
+83,Kwalitywall's Frozen Dessert And Ice Cream Shop,https://www.zomato.com/bangalore/kwalitywalls-frozen-dessert-and-ice-cream-shop-wilson-garden-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/9/19085099/4d306642debcd748743784447e818874_o2_featured_v2.jpg
+84,Asha Sweet Center - Since 1951,https://www.zomato.com/bangalore/asha-sweet-center-since-1951-shanti-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/0/56290/4b73d8dbb52511998d95c5b5fb0ce946_o2_featured_v2.jpg
+85,Cakewala,https://www.zomato.com/bangalore/cakewala-1-jayanagar/order,https://b.zmtcdn.com/data/pictures/chains/1/52161/789d4fa0f3569f91287af3a51f1040b6_o2_featured_v2.jpg
+86,Sangam Sweets - Since 1964,https://www.zomato.com/bangalore/sangam-sweets-since-1964-majestic-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/0/54670/8a9683e4f510d586345a83fef84ce6e6_o2_featured_v2.jpg
+87,Krishna Vaibhava,https://www.zomato.com/bangalore/krishna-vaibhava-vijay-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/5/19422875/14bb38a6e3fc9e743d4996aa0ef02993_o2_featured_v2.jpg
+88,Biryani By Kilo,https://www.zomato.com/bangalore/biryani-by-kilo-koramangala-6th-block-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/3/19763193/1e4be0b5e0f970aef41328752d9c4bc1_o2_featured_v2.jpg
+89,Hotel N.G.T Non Veg,https://www.zomato.com/bangalore/hotel-n-g-t-non-veg-vijay-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/2/20406522/b4c221b5947508ff0aa340d02fb450a7_o2_featured_v2.jpg
+90,Savi Sagar,https://www.zomato.com/bangalore/savi-sagar-malleshwaram-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/1/18494071/50d900d6533dcd529b93469c6b7c9c0d_o2_featured_v2.jpg
+91,Potful - Claypot Biryanis,https://www.zomato.com/bangalore/potful-claypot-biryanis-thippasandra-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/5/18545945/17eca444413edd57c6ecad3814e3202d_o2_featured_v2.jpg
+92,NIC Ice Creams,https://www.zomato.com/bangalore/nic-ice-creams-frazer-town-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/0/19316300/d0062ae25464aa823fa292a70f8fd10b_o2_featured_v2.jpg
+93,Brothers Biriyani,https://www.zomato.com/bangalore/brothers-biriyani-basavanagudi-bangalore/order,https://b.zmtcdn.com/data/pictures/4/19886384/e46c40625231d2d04147bc82f79ca597_o2_featured_v2.jpg
+94,Glen`s Bakehouse,https://www.zomato.com/bangalore/glen-s-bakehouse-lavelle-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/4/56464/18163c7b780365d66811997d9d118ae5_o2_featured_v2.jpg
+95,WOW! Momo,https://www.zomato.com/bangalore/wow-momo-church-street-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/4/54644/7c803609ec13fae003ec534f7c90e5db_o2_featured_v2.jpg
+96,AB's - Absolute Barbecues,https://www.zomato.com/bangalore/abs-absolute-barbecues-koramangala-5th-block-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/8/56618/eb76ac028741427ae0ba5ffe85ddb326_o2_featured_v2.jpg
+97,The Punjabi Rasoi,https://www.zomato.com/bangalore/the-punjabi-rasoi-indiranagar/order,https://b.zmtcdn.com/data/pictures/7/51017/2c2384e48ea1d8814949f62935d30d7e_o2_featured_v2.jpg
+98,Donne Biryani House,https://www.zomato.com/bangalore/donne-biryani-house-malleshwaram/order,https://b.zmtcdn.com/data/pictures/chains/1/18547241/9fa9fea0bf92d5cecee680884879e3e7_o2_featured_v2.jpg
+99,Great Indian Khichdi by EatFit,https://www.zomato.com/bangalore/great-indian-khichdi-by-eatfit-cunningham-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/9/19413979/0bfebefe6eef023c5c0c1f49dd0e97e2_o2_featured_v2.jpg
+100,Afghani Tandoori Hub,https://www.zomato.com/bangalore/afghani-tandoori-hub-btm-bangalore/order,https://b.zmtcdn.com/data/pictures/2/18791092/38af17cbfa7c62906d376498b852c17d_o2_featured_v2.jpg
+101,Shivanna Military Hotel,https://www.zomato.com/bangalore/shivanna-military-hotel-basaveshwara-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/7/20347897/1ca93ab9124b8196d040422060969003_o2_featured_v2.jpg
+102,Chowman,https://www.zomato.com/bangalore/chowman-hosur-road-bangalore/order,https://b.zmtcdn.com/data/pictures/8/20913858/57565267c987fc9f2b351b631034df82_o2_featured_v2.jpg
+103,Biryani Pot,https://www.zomato.com/bangalore/biryani-pot-btm/order,https://b.zmtcdn.com/data/pictures/3/56573/e358d781fdfb69a867014e43fd398990_o2_featured_v2.jpg
+104,Natraj Chole Bhature,https://www.zomato.com/bangalore/natraj-chole-bhature-indiranagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/5/19871235/f9867d62ea5333b468dc7956aaa93827_o2_featured_v2.jpg
+105,Mandya Nati Style,https://www.zomato.com/bangalore/mandya-nati-style-vijay-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/4/19291884/67ba55b98f2d69a5f6ab6135fe8ef6d6_o2_featured_v2.jpeg
+106,Baskin Robbins - Ice Cream Desserts,https://www.zomato.com/bangalore/baskin-robbins-ice-cream-desserts-1-brigade-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/4/51454/ec37a79363ae4ea88c3be9ccd7989873_o2_featured_v2.jpg
+107,Kuttanad Restaurant,https://www.zomato.com/bangalore/kuttanad-restaurant-koramangala-5th-block-bangalore/order,https://b.zmtcdn.com/data/pictures/7/20951957/083276c163d45672ed6af5e6fd2a76de_o2_featured_v2.jpg
+108,Chaat Street - Desi Chaat & Chai,https://www.zomato.com/bangalore/chaat-street-desi-chaat-chai-ulsoor-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/7/18304767/81c2622fb8f3eb98aa11bec7dfc7fbf5_o2_featured_v2.jpg
+109,Punjabi Nawabi,https://www.zomato.com/bangalore/punjabi-nawabi-koramangala-7th-block-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/8/18489118/a39228f63559b763c6928e91fbdf4942_o2_featured_v2.jpg
+110,IDC Kitchen,https://www.zomato.com/bangalore/idc-kitchen-richmond-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/8/60108/592bfddca0920a6f7c72ca8cd738bb06_o2_featured_v2.jpg
+111,WarmOven Cake & Desserts,https://www.zomato.com/bangalore/warmoven-cake-desserts-vasanth-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/5/57215/6e173e79e4cadfb1aa44b7b902d6c615_o2_featured_v2.jpg
+112,Hari Super Sandwich,https://www.zomato.com/bangalore/hari-super-sandwich-1-basavanagudi-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/1/51571/af8fe6df3d53d9df39e651d9ecde28c5_o2_featured_v2.jpg
+113,Aattutheeram Kerala Restaurant,https://www.zomato.com/bangalore/aattutheeram-kerala-restaurant-koramangala-5th-block-bangalore/order,https://b.zmtcdn.com/data/pictures/7/20951807/37cd5c9128271d71db7a8617a02293df_o2_featured_v2.jpg
+114,Smoor,https://www.zomato.com/bangalore/smoor-lavelle-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/1/52971/092c65b5f43b66346dfbc4c625f3deca_o2_featured_v2.jpg
+115,The Pizza Bakery,https://www.zomato.com/bangalore/the-pizza-bakery-church-street-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/2/18603822/b3308f7fbe6a3af401ee578c0c0dc9ab_o2_featured_v2.jpg
+116,New Taj Darbar,https://www.zomato.com/bangalore/new-taj-darbar-shivajinagar-bangalore/order,https://b.zmtcdn.com/images/placeholder_200.png?output-quality=70
+117,Goli Vada Pav No. 1,https://www.zomato.com/bangalore/goli-vada-pav-no-1-2-indiranagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/3/51403/d6af5723e4c0a4077e57ea9364e89a8a_o2_featured_v2.jpg
+118,New Krishna Sagar,https://www.zomato.com/bangalore/new-krishna-sagar-indiranagar/order,https://b.zmtcdn.com/data/pictures/chains/0/58960/69b3d51103c825a353987bf3902b4a09_o2_featured_v2.jpg
+119,Hotel Kadamba Veg,https://www.zomato.com/bangalore/hotel-kadamba-veg-rajajinagar/order,https://b.zmtcdn.com/data/pictures/6/56016/78825ad90e80ae3a1d8897904990ac3a_o2_featured_v2.jpg
+120,Madeena Hotel,https://www.zomato.com/bangalore/madeena-hotel-koramangala-5th-block-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/5/18140795/04a11aedf8b6c567b4a326986189c69e_o2_featured_v2.jpg
+121,Big Bite,https://www.zomato.com/bangalore/big-bite-vijay-nagar/order,https://b.zmtcdn.com/data/pictures/chains/9/17946109/2b0b9bc5dafbbf2a8f6a0065ae70f52f_o2_featured_v2.jpg
+122,Haldiram's Restaurant,https://www.zomato.com/bangalore/haldirams-restaurant-majestic-bangalore/order,https://b.zmtcdn.com/data/pictures/1/20890111/d4fbef9ea1011479349aa3a11e5e5245_o2_featured_v2.jpg
+123,Samosa Party,https://www.zomato.com/bangalore/samosa-party-brigade-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/8/18443088/ee5f15082564f26913fb605a2135e774_o2_featured_v2.jpg
+124,Kolkata No. 1 Kati Rolls,https://www.zomato.com/bangalore/kolkata-no-1-kati-rolls-rajajinagar-bangalore/order,https://b.zmtcdn.com/data/pictures/8/19860138/7c16fb78665e9a60dd98faecc5164175_o2_featured_v2.jpg
+125,Chulha Chauki Da Dhaba,https://www.zomato.com/bangalore/chulha-chauki-da-dhaba-indiranagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/8/50268/37fbcbe7e922f50c6a636597762b7ec9_o2_featured_v2.jpg
+126,Apna Dhaba,https://www.zomato.com/bangalore/apna-dhaba-basavanagudi-bangalore/order,https://b.zmtcdn.com/data/pictures/4/20127954/f55a655a4792cf3ef0388c3e9938ab35_o2_featured_v2.jpg
+127,Kolkata Famous Kati Rolls,https://www.zomato.com/bangalore/kolkata-famous-kati-rolls-rajajinagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/3/18387413/afdc75801ab2d5a44c438f0cb77b270e_o2_featured_v2.jpg
+128,Meghana Biryani,https://www.zomato.com/bangalore/meghana-biryani-btm-bangalore/order,https://b.zmtcdn.com/data/pictures/5/20824425/b78ee48056b1fb345766b119304b61c4_o2_featured_v2.jpg
+129,Starbucks Coffee,https://www.zomato.com/bangalore/starbucks-coffee-lavelle-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/3/56603/163aa2d5720ce597203370afb1357c90_o2_featured_v2.jpg
+130,Dum Safar Biryani,https://www.zomato.com/bangalore/dum-safar-biryani-ulsoor-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/5/20378065/ab99f112364707fb94d7514c0bc2f07a_o2_featured_v2.jpg
+131,Brahmins' Thatte Idli,https://www.zomato.com/bangalore/brahmins-thatte-idli-1-malleshwaram-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/9/60809/d732afa04ceb91ce8b70532b4a564122_o2_featured_v2.jpg
+132,Arogya Ahaara,https://www.zomato.com/bangalore/arogya-ahaara-jp-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/8/19057238/cdc468b9a921e42f2ee6744f608295ae_o2_featured_v2.jpg
+133,Nashville Fried Chicken - NFC,https://www.zomato.com/bangalore/nashville-fried-chicken-nfc-koramangala-7th-block-bangalore/order,https://b.zmtcdn.com/data/pictures/6/20890746/e048a322ba211ae790c481f2aa18b41d_o2_featured_v2.jpg
+134,Rotti Walla,https://www.zomato.com/bangalore/rotti-walla-indiranagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/4/19600024/6b4ce30d9cbda953e057b6b3daba7e28_o2_featured_v2.jpg
+135,Chai Point,https://www.zomato.com/bangalore/chai-point-church-street-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/0/52860/6750c2fe1f25a444991eee4d7afd5dd9_o2_featured_v2.jpg
+136,Charminar Biryani House,https://www.zomato.com/bangalore/charminar-biryani-house-1-btm-bangalore/order,https://b.zmtcdn.com/data/pictures/9/19422319/7efae94e482a2becb104ffd4f2f1fd33_o2_featured_v2.jpg
+137,Chikpet Donne Biriyani House,https://www.zomato.com/bangalore/chikpet-donne-biriyani-house-rajajinagar/order,https://b.zmtcdn.com/data/pictures/5/18555065/ee23e6b45e1f6acbefe8fe6438fde989_o2_featured_v2.jpg
+138,Dairy Day Ice Creams & Frozen Desserts,https://www.zomato.com/bangalore/dairy-day-ice-creams-frozen-desserts-wilson-garden-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/4/19460604/5a0159374fa17f355ade5994eea82ad8_o2_featured_v2.jpg
+139,"Frozen Bottle - Milkshakes, Desserts And Ice Cream",https://www.zomato.com/bangalore/frozen-bottle-milkshakes-desserts-and-ice-cream-brigade-road-bangalore/order,https://b.zmtcdn.com/data/pictures/5/18625825/e6b0fa06a95bfcdbe3f206343d23e2a9_o2_featured_v2.jpg
+140,Biggies Burger,https://www.zomato.com/bangalore/biggies-burger-church-street-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/9/58829/84678be832c8681b3c4ac007cd32fdbe_o2_featured_v2.jpg
+141,Anjappar,https://www.zomato.com/bangalore/anjappar-brigade-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/5/50045/05db4edf81caa2fc3b6d6a6f4f098fc3_o2_featured_v2.jpg
+142,Barbeque Nation,https://www.zomato.com/bangalore/barbeque-nation-ulsoor-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/6/50066/a9b023aacfd87c1074966fc4c4d31146_o2_featured_v2.jpg
+143,WOW! China,https://www.zomato.com/bangalore/wow-china-church-street-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/2/19527262/1987b9ddce50a04e3e59506b4f6a817a_o2_featured_v2.jpg
+144,Savoury Restaurant,https://www.zomato.com/bangalore/savoury-restaurant-1-frazer-town/order,https://b.zmtcdn.com/data/pictures/chains/9/54159/9ddf86d5e2bab8a379246e3e213e397e_o2_featured_v2.jpg
+145,New Udupi Garden,https://www.zomato.com/bangalore/new-udupi-garden-airport-road-bangalore/order,https://b.zmtcdn.com/data/pictures/3/18671013/eca280a6340c48560dc72b42e8991716_o2_featured_v2.jpg
+146,India Sweet House,https://www.zomato.com/bangalore/india-sweet-house-1-city-market-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/3/19586283/0d84c084989f2d94bab3e77fb9381975_o2_featured_v2.jpg
+147,New Shanthi Sagar,https://www.zomato.com/bangalore/new-shanthi-sagar-rt-nagar/order,https://b.zmtcdn.com/data/pictures/chains/7/52277/c9bcaec7b95c4f7f59655d53ee24e7a2_o2_featured_v2.jpg
+148,Krispy Kreme,https://www.zomato.com/bangalore/krispy-kreme-richmond-road/order,https://b.zmtcdn.com/data/pictures/3/60503/3c48bd962bbd79c46468fc634d684ed8_o2_featured_v2.jpg
+149,Paris Panini - Gourmet Sandwiches & Wraps,https://www.zomato.com/bangalore/paris-panini-gourmet-sandwiches-wraps-church-street-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/1/19263281/929594f38f937da64f6b99c2961df3dd_o2_featured_v2.jpg
+150,Royal Biryani Kitchen,https://www.zomato.com/bangalore/royal-biryani-kitchen-btm-bangalore/order,https://b.zmtcdn.com/data/pictures/5/18769675/5dc3cdac140e735441ca350281577d14_o2_featured_v2.jpg
+151,Dil Punjabi By Dil Foods,https://www.zomato.com/bangalore/dil-punjabi-by-dil-foods-brigade-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/0/20110110/534b5da2b6f51b8ea0b185ac365441f9_o2_featured_v2.jpg
+152,Namo Andhra - Pure Veg,https://www.zomato.com/bangalore/namo-andhra-pure-veg-seshadripuram-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/9/20799319/0c37e22008923447ca9c39723c89686e_o2_featured_v2.jpg
+153,The Good Bowl,https://www.zomato.com/bangalore/the-good-bowl-shanti-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/2/18878982/28c4bf5499f2dfa8a82a5bec58470edd_o2_featured_v2.jpg
+154,Jose Mess,https://www.zomato.com/bangalore/jose-mess-1-btm-bangalore/order,https://b.zmtcdn.com/data/pictures/5/60195/1c3eed3d5f177c6c4e690e22cac3f547_o2_featured_v2.jpg
+155,Le Arabia,https://www.zomato.com/bangalore/le-arabia-basaveshwara-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/0/18480520/6154a7284749b9bf1443eb3b431c09cb_o2_featured_v2.jpg
+156,Biryani Trip - Destination Hyderabad,https://www.zomato.com/bangalore/biryani-trip-destination-hyderabad-seshadripuram-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/4/18854314/d37f2bfbcf15e43f180d92fa3136824f_o2_featured_v2.jpg
+157,TrueCakes - Fresh | Eggless | Cakes,https://www.zomato.com/bangalore/truecakes-fresh-eggless-cakes-indiranagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/0/19374760/9433df2472f85483c312008909b2acba_o2_featured_v2.jpg
+158,ITC Aashirvaad Soul Creations,https://www.zomato.com/bangalore/itc-aashirvaad-soul-creations-commercial-street-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/8/20496588/886189f4cb602f025b3a9cb8dad931d2_o2_featured_v2.jpg
+159,Shyamji's Chole Bhature,https://www.zomato.com/bangalore/shyamjis-chole-bhature-malleshwaram-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/6/19857436/06fcd7c3b84daf3343659e1ee2c8abfd_o2_featured_v2.jpg
+160,Hyderabad Biryani Mandi,https://www.zomato.com/bangalore/hyderabad-biryani-mandi-rajajinagar-bangalore/order,https://b.zmtcdn.com/data/pictures/0/20672880/a97231a7c99e1ef71d546d50581807b4_o2_featured_v2.jpg
+161,Madurai Idly Shop,https://www.zomato.com/bangalore/madurai-idly-shop-1-koramangala-7th-block-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/8/50628/f72101d8dfd889fe9d5d66b024f57147_o2_featured_v2.jpg
+162,Hyderabad Biryani Hotel,https://www.zomato.com/bangalore/hyderabad-biryani-hotel-malleshwaram-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/1/18720661/9567525600411421cd2bc011e5fab8ca_o2_featured_v2.jpg
+163,Boba Bhai,https://www.zomato.com/bangalore/boba-bhai-koramangala-7th-block-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/5/20620785/8632d9e94e2a37f53eff9055520f3841_o2_featured_v2.jpg
+164,Madras Meal Company,https://www.zomato.com/bangalore/madras-meal-company-1-frazer-town-bangalore/order,https://b.zmtcdn.com/data/pictures/1/19852521/2fb42c4c025924d485a3963f55f05386_o2_featured_v2.jpg
+165,Odia Dine,https://www.zomato.com/bangalore/odia-dine-airport-road/order,https://b.zmtcdn.com/data/pictures/6/18587916/0dcb041a192c757ce952ae07f62ba6cb_o2_featured_v2.jpg
+166,The Biryani Life,https://www.zomato.com/bangalore/the-biryani-life-shanti-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/4/19225214/aed6598e604214342deaacc7d985257f_o2_featured_v2.jpg
+167,Meat And Eat,https://www.zomato.com/bangalore/meat-and-eat-domlur/order,https://b.zmtcdn.com/data/pictures/chains/0/57840/2f32447aa2aef630ebdf6005b2a822a3_o2_featured_v2.jpg
+168,Biryani Blues,https://www.zomato.com/bangalore/biryani-blues-church-street-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/9/19969439/cf3d88dd0f49bd1251565de9c1de2ca7_o2_featured_v2.jpg
+169,Bhartiya Jalpan,https://www.zomato.com/bangalore/bhartiya-jalpan-commercial-street-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/3/18455573/20b5a689ddc09f15153f2e21de4129c0_o2_featured_v2.jpg
+170,Thalassery Restaurant,https://www.zomato.com/bangalore/thalassery-restaurant-airport-road-bangalore/order,https://b.zmtcdn.com/data/pictures/6/20862416/1f20e51ed5c5293f9b9787d269950a48_o2_featured_v2.jpg
+171,Shree Mahalakshmi Sweets,https://www.zomato.com/bangalore/shree-mahalakshmi-sweets-2-basavanagudi-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/9/18165789/5d8dca84748b26add817e6f842ced019_o2_featured_v2.jpg
+172,M.M.A Kabab and Rolls,https://www.zomato.com/bangalore/m-m-a-kabab-and-rolls-old-madras-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/9/51189/be81709937c24c26aa6f348da0376621_o2_featured_v2.jpg
+173,Home Plate by EatFit,https://www.zomato.com/bangalore/home-plate-by-eatfit-cunningham-road-bangalore/order,https://b.zmtcdn.com/data/pictures/2/20011372/71ea363befeacbe471f1e87640fabbef_o2_featured_v2.jpg
+174,Sri Vishnu Park,https://www.zomato.com/bangalore/sri-vishnu-park-btm/order,https://b.zmtcdn.com/data/pictures/chains/9/18604159/521274cb47fad4423069a8b060ac36ff_o2_featured_v2.jpg
+175,Kabab King,https://www.zomato.com/bangalore/kabab-king-kumaraswamy-layout-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/7/61367/8615d93d35f826990e5497544823071f_o2_featured_v2.jpg
+176,Gopaljee Cafe,https://www.zomato.com/bangalore/gopaljee-cafe-koramangala-7th-block-bangalore/order,https://b.zmtcdn.com/data/pictures/6/19960866/f2ae3e92e916bd19a0dde213cf6aad2e_o2_featured_v2.jpg
+177,Kabab King Restaurant,https://www.zomato.com/bangalore/kabab-king-restaurant-1-banashankari-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/9/19200869/e3b4ba67b8f8c227c5178f241b9bb694_o2_featured_v2.jpg
+178,Swathi Restaurant,https://www.zomato.com/bangalore/swathi-restaurant-rajajinagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/8/50948/c0f6b07b1773478590a1f9951de2371a_o2_featured_v2.jpg
+179,The Bake Feast,https://www.zomato.com/bangalore/the-bake-feast-indiranagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/9/19335369/ccb803e6edbd8d519188114fa1e7f475_o2_featured_v2.jpg
+180,Third Wave Coffee,https://www.zomato.com/bangalore/third-wave-coffee-lavelle-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/1/18380831/56f59da661495376566fe01bec942ca5_o2_featured_v2.jpg
+181,Kirti Kitchen,https://www.zomato.com/bangalore/kirti-kitchen-btm-bangalore/order,https://b.zmtcdn.com/data/pictures/9/19122399/5e9d9e4f275c883911c377e7ffbd3dc0_o2_featured_v2.jpg
+182,Sri Sai Cafe,https://www.zomato.com/bangalore/sri-sai-cafe-basavanagudi-bangalore/order,https://b.zmtcdn.com/data/pictures/3/19243643/4d09aaba1440f1da6fcbbb9c8068a36e_o2_featured_v2.jpg
+183,Muthashy's,https://www.zomato.com/bangalore/muthashys-btm-bangalore/order,https://b.zmtcdn.com/data/pictures/9/51239/1e5a191e8ee577af3e193ce564f7334e_o2_featured_v2.jpg
+184,Juice Junction,https://www.zomato.com/bangalore/juice-junction-st-marks-road/order,https://b.zmtcdn.com/data/pictures/0/52990/341febc93b8559ad4c99279365d2b418_o2_featured_v2.jpg
+185,Rajanna Military Hotel,https://www.zomato.com/bangalore/rajanna-military-hotel-rajajinagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/8/18558508/807cf8a0bf0eb7258cf0076fb82bc483_o2_featured_v2.jpg
+186,Chaayos Chai+Snacks=Relax,https://www.zomato.com/bangalore/chaayos-chai-snacks-relax-cunningham-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/6/19184036/41012e7a6c9179c4bd5678111a7d5dd7_o2_featured_v2.jpg
+187,Hari Super Sandwich,https://www.zomato.com/bangalore/hari-super-sandwich-btm-bangalore/order,https://b.zmtcdn.com/data/pictures/1/18889301/25ed2f2cbe95b0f5b80b9d95577939be_o2_featured_v2.jpg
+188,Red Bucket Biryani,https://www.zomato.com/bangalore/red-bucket-biryani-btm-bangalore/order,https://b.zmtcdn.com/data/pictures/4/20671224/0c338598bd78a1c670d306b74e297b71_o2_featured_v2.jpg
+189,Szechuan Dragon,https://www.zomato.com/bangalore/szechuan-dragon-banashankari/order,https://b.zmtcdn.com/data/pictures/chains/5/57325/c7ce215978e8411c1aedc9440814e46d_o2_featured_v2.jpg
+190,RB Food Point,https://www.zomato.com/bangalore/rb-food-point-btm-bangalore/order,https://b.zmtcdn.com/data/pictures/4/18775254/5b7a7f9424331aee1453b69e46d19fba_o2_featured_v2.jpg
+191,SGS Non Veg - Gundu Pulav,https://www.zomato.com/bangalore/sgs-non-veg-gundu-pulav-city-market-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/0/18497780/7134b7aca44a48b46f8df79e2f41581c_o2_featured_v2.jpg
+192,Laddoos,https://www.zomato.com/bangalore/laddoos-jeevan-bhima-nagar/order,https://b.zmtcdn.com/data/pictures/chains/6/52036/fc4bc4ca46bc8fa72566700c036c82ba_o2_featured_v2.jpg
+193,ITC Master Chef Creations,https://www.zomato.com/bangalore/itc-master-chef-creations-commercial-street-bangalore/order,https://b.zmtcdn.com/data/pictures/5/20709035/00af06f1f9e30b97843197f53b360d6a_o2_featured_v2.jpg
+194,Toscano,https://www.zomato.com/bangalore/toscano-lavelle-road/order,https://b.zmtcdn.com/data/pictures/chains/9/51029/cc037165e0cde3d1c6bdfb2167813d7f_o2_featured_v2.jpg
+195,New Agarwal Bhavan,https://www.zomato.com/bangalore/new-agarwal-bhavan-sadashiv-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/3/52673/871c9b0ecbc927812c127433a74b4fb5_o2_featured_v2.jpg
+196,Sri Udupi Grand,https://www.zomato.com/bangalore/sri-udupi-grand-brigade-road-bangalore/order,https://b.zmtcdn.com/data/pictures/3/18923303/25b96738276c3c19bf78759ecd0c94fe_o2_featured_v2.jpg
+197,Mad Over Donuts,https://www.zomato.com/bangalore/mad-over-donuts-brigade-road/order,https://b.zmtcdn.com/data/pictures/chains/6/53256/c8789447a2f90f600775d05767886121_o2_featured_v2.jpg
+198,Donne Biryani Angadi Mane,https://www.zomato.com/bangalore/donne-biryani-angadi-mane-sadashiv-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/2/18414352/60b503bd262c94d21f71b3d7905a912e_o2_featured_v2.jpg
+199,Punjabi Unplugged,https://www.zomato.com/bangalore/punjabi-unplugged-koramangala-7th-block-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/9/18926789/82348442ca59d2d00fdac02e45821a32_o2_featured_v2.jpg
+200,Empire Juices and Desserts,https://www.zomato.com/bangalore/empire-juices-and-desserts-brigade-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/1/18796821/a4695c4429021ffaffcd06a82d546778_o2_featured_v2.jpg
+201,Just Bake,https://www.zomato.com/bangalore/just-bake-seshadripuram/order,https://b.zmtcdn.com/data/pictures/chains/1/51111/a8142d6e88f104086416872e48f5208e_o2_featured_v2.jpg
+202,Absolute Shawarma,https://www.zomato.com/bangalore/absolute-shawarma-vijay-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/5/18653095/90c9e6973263e5fb33933535204ee12a_o2_featured_v2.jpg
+203,Kataria's,https://www.zomato.com/bangalore/katarias-btm-bangalore/order,https://b.zmtcdn.com/data/pictures/2/60472/53ab5aad60abdd70ded5feab96cb6676_o2_featured_v2.jpg
+204,FB Cakes,https://www.zomato.com/bangalore/fb-cakes-1-btm-bangalore/order,https://b.zmtcdn.com/data/pictures/0/20631090/d84a615f60795e8b4a80067b5c6c07e2_o2_featured_v2.jpg
+205,New Shanthi Sagar,https://www.zomato.com/bangalore/new-shanthi-sagar-rajajinagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/3/59013/1258745bb387d074e0df89228374f1f2_o2_featured_v2.jpg
+206,Udupi Upachar,https://www.zomato.com/bangalore/udupi-upachar-banashankari-bangalore/order,https://b.zmtcdn.com/data/pictures/8/18886278/967d3b5101f6af0dc60eae7abc8e8140_o2_featured_v2.jpg
+207,Roti Ghar,https://www.zomato.com/bangalore/roti-ghar-basavanagudi/order,https://b.zmtcdn.com/data/pictures/2/54352/bcd8671b7611ecd5eefdbb6318f35a01_o2_featured_v2.jpg
+208,Olive Street Food Cafe,https://www.zomato.com/bangalore/olive-street-food-cafe-btm-bangalore/order,https://b.zmtcdn.com/data/pictures/5/20486615/2322e1d218b11e685c6113f0bd3cd93d_o2_featured_v2.jpg
+209,Mangalore Kitchen,https://www.zomato.com/bangalore/mangalore-kitchen-1-jeevan-bhima-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/8/18756608/f6154609e5218f7a7f8ec4bec07e38a7_o2_featured_v2.jpeg
+210,New Punjabi Hotel,https://www.zomato.com/bangalore/new-punjabi-hotel-indiranagar/order,https://b.zmtcdn.com/data/pictures/7/56697/df97d0364cba5de54433fcc92067fcdb_o2_featured_v2.jpg
+211,Donne Biryani Adda,https://www.zomato.com/bangalore/donne-biryani-adda-indiranagar-bangalore/order,https://b.zmtcdn.com/data/pictures/1/19684181/14dddc8d4d8c5d55bd6ab839752e787f_o2_featured_v2.jpg
+212,Goila Butter Chicken,https://www.zomato.com/bangalore/goila-butter-chicken-koramangala-6th-block-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/9/19648459/21a1b09c62f1c1d3cdf5d45bb91aff05_o2_featured_v2.jpg
+213,Hotel Navayuga,https://www.zomato.com/bangalore/hotel-navayuga-majestic/order,https://b.zmtcdn.com/data/pictures/3/18025083/1085ec8abdcddccb38f565dded54a6d9_o2_featured_v2.jpg
+214,Andhra Ruchulu,https://www.zomato.com/bangalore/andhra-ruchulu-sankey-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/1/18546351/1f4596f080848c650f639e2986da0244_o2_featured_v2.jpg
+215,Namo Andhra - Pure Veg,https://www.zomato.com/bangalore/namo-andhra-pure-veg-koramangala-6th-block-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/7/20794717/0c37e22008923447ca9c39723c89686e_o2_featured_v2.jpg
+216,Kailash Parbat,https://www.zomato.com/bangalore/kailash-parbat-commercial-street-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/9/53189/6d040e4ee0e9d7f3dd064ffa64d3b760_o2_featured_v2.jpg
+217,Ghee Tadka Khichdi,https://www.zomato.com/bangalore/ghee-tadka-khichdi-seshadripuram-bangalore/order,https://b.zmtcdn.com/data/pictures/1/20194611/d0485412de1379114fd2e06bbd6a6605_o2_featured_v2.jpg
+218,99 Varieties Dosa & Pav Bhaji,https://www.zomato.com/bangalore/99-varieties-dosa-pav-bhaji-btm-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/7/18683377/fac4e497d2fe0beed465f061c669e716_o2_featured_v2.jpg
+219,Marwadi Chaat & Tiffin Services,https://www.zomato.com/bangalore/marwadi-chaat-tiffin-services-shanti-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/5/18844845/6d0c3a46f2de88eeb3bb11357443cf8f_o2_featured_v2.jpg
+220,Pizza House,https://www.zomato.com/bangalore/pizza-house-1-rt-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/0/19848040/8d55259349a583f56d540b716c249f1a_o2_featured_v2.jpg
+221,Sweet Truth - Cake and Desserts,https://www.zomato.com/bangalore/sweet-truth-cake-and-desserts-shanti-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/3/18551643/8ce8cf60f74ee6f58fe9f345eb97d671_o2_featured_v2.jpg
+222,Thom's Bakery - Since 1970,https://www.zomato.com/bangalore/thoms-bakery-since-1970-frazer-town-bangalore/order,https://b.zmtcdn.com/data/pictures/5/20637085/351ad4d9ded7cf16e8665f4af44118ff_o2_featured_v2.jpg
+223,GOPIZZA,https://www.zomato.com/bangalore/gopizza-brigade-road-bangalore/order,https://b.zmtcdn.com/data/pictures/5/20349275/8b4c9ec9ce1e532409f5f5be5e1ddf8e_featured_v2.jpg
+224,Ayodhya Vihar Pure Veg,https://www.zomato.com/bangalore/ayodhya-vihar-pure-veg-jeevan-bhima-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/5/19064775/d42a7cbfe4c063481db8430a34bb51c6_o2_featured_v2.jpg
+225,Rolls Kitchen,https://www.zomato.com/bangalore/rolls-kitchen-rajajinagar/order,https://b.zmtcdn.com/data/pictures/chains/9/58799/d8783879a216f7199ea1ab49f370be82_o2_featured_v2.jpg
+226,Donne Biriyani Mane,https://www.zomato.com/bangalore/donne-biriyani-mane-1-indiranagar/order,https://b.zmtcdn.com/data/pictures/chains/1/18391041/cc8e83236cea627f746018fac8c50d9d_o2_featured_v2.jpg
+227,Swad Punjab Da,https://www.zomato.com/bangalore/swad-punjab-da-btm/order,https://b.zmtcdn.com/data/pictures/chains/8/56488/1ffb5327dca50ed776e662d92b73829e_o2_featured_v2.jpg
+228,Sreeraj Lassi Bar - Since 1973,https://www.zomato.com/bangalore/sreeraj-lassi-bar-since-1973-shanti-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/2/53762/10fbea584a3f287b5999dabf63ceeb03_o2_featured_v2.jpg
+229,Halli Donne Biryani Mane,https://www.zomato.com/bangalore/halli-donne-biryani-mane-btm-bangalore/order,https://b.zmtcdn.com/data/pictures/5/20855985/d076ba601827c7a95486a1f688b4e372_o2_featured_v2.jpg
+230,Pure Veg Meals By LunchBox,https://www.zomato.com/bangalore/pure-veg-meals-by-lunchbox-shanti-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/8/19839658/20d7201b6a88d4f35a52d47c40656a11_o2_featured_v2.jpg
+231,Falahaar & Kota Kachori,https://www.zomato.com/bangalore/falahaar-kota-kachori-koramangala-7th-block-bangalore/order,https://b.zmtcdn.com/data/pictures/1/61381/690ed51dd19a637b644317f8ba7613e9_o2_featured_v2.jpg
+232,Millet Express,https://www.zomato.com/bangalore/millet-express-1-indiranagar-bangalore/order,https://b.zmtcdn.com/data/pictures/5/20324735/01bd5f7f357cc2d4535f342f4ab6016d_o2_featured_v2.jpg
+233,Suchithra Biryani House,https://www.zomato.com/bangalore/suchithra-biryani-house-airport-road/order,https://b.zmtcdn.com/data/pictures/chains/9/50939/cc38dde3c9d07724c29b881a20efceb7_o2_featured_v2.jpg
+234,Magnolia Bakery,https://www.zomato.com/bangalore/magnolia-bakery-indiranagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/6/19257266/c2c3d57192b7825a6602c3fdbc5a4847_o2_featured_v2.jpg
+235,Malgudi's Donne Biriyani,https://www.zomato.com/bangalore/malgudis-donne-biriyani-1-rajajinagar/order,https://b.zmtcdn.com/data/pictures/0/18554970/152ed59ffad8e83f6ca984224341ce6e_o2_featured_v2.jpg
+236,Shanthi Sagar,https://www.zomato.com/bangalore/shanthi-sagar-ulsoor/order,https://b.zmtcdn.com/data/pictures/chains/2/54962/413e6f8257c4d420ce3792598b25526d_o2_featured_v2.jpg
+237,Sandwich Guru,https://www.zomato.com/bangalore/sandwich-guru-basavanagudi-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/2/18939492/86ddd4853ff1429e76e2952b3d1a05f1_o2_featured_v2.jpg
+238,Aramane Donne Biriyani,https://www.zomato.com/bangalore/aramane-donne-biriyani-1-banashankari-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/0/18548020/68d1026b0c58ebeb378738114ebc5352_o2_featured_v2.jpg
+239,Chetty's Corner,https://www.zomato.com/chettyscorner/order,https://b.zmtcdn.com/data/pictures/5/54595/19129606ef6a0f4e041c33c05db1f36f_o2_featured_v2.jpg
+240,Hari Super Sandwich,https://www.zomato.com/bangalore/hari-super-sandwich-seshadripuram-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/1/19182701/195b54b8274e6c90472d59774508b76d_o2_featured_v2.jpg
+241,Auntie Fung's,https://www.zomato.com/bangalore/auntie-fungs-indiranagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/0/60340/8540a7bffb9ced7eb20f735d1794750d_o2_featured_v2.jpg
+242,Udupi Shanthi Sagar,https://www.zomato.com/bangalore/udupi-shanthi-sagar-frazer-town-bangalore/order,https://b.zmtcdn.com/data/pictures/4/19879484/9b2f8ce5120edd21428a7f9739cb444b_o2_featured_v2.jpg
+243,Krishnam Veg,https://www.zomato.com/bangalore/krishnam-veg-shanti-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/9/20432649/03e38cf205da9915793e7a884d23cff9_o2_featured_v2.jpg
+244,7 Plates,https://www.zomato.com/bangalore/7-plates-frazer-town/order,https://b.zmtcdn.com/data/pictures/chains/8/57978/6ce2bff32e7a11ff553840b0e18ad874_o2_featured_v2.jpg
+245,Paratha Envy,https://www.zomato.com/bangalore/paratha-envy-koramangala-6th-block-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/4/18994874/a3c57a8339f66d906c225527c88a9854_o2_featured_v2.jpg
+246,Pathaan Sir,https://www.zomato.com/bangalore/pathaan-sir-frazer-town/order,https://b.zmtcdn.com/data/pictures/chains/7/58607/d2f078bcc9df1aaeeb85b655a58f7046_o2_featured_v2.jpg
+247,Daily Sushi,https://www.zomato.com/bangalore/daily-sushi-church-street-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/3/18893733/feaaf0df9b3cc8aa92571f60999f56ea_o2_featured_v2.png
+248,Bake and Juice,https://www.zomato.com/bangalore/bake-and-juice-hosur-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/2/18785112/60291c54f8376e62445c992bdd5308dd_o2_featured_v2.jpg
+249,Raidan Restaurant,https://www.zomato.com/bangalore/raidan-restaurant-1-frazer-town-bangalore/order,https://b.zmtcdn.com/data/pictures/6/20822806/7a68b5dc6acee06c07c6778800475a51_o2_featured_v2.jpg
+250,Mangalore Lunch Home,https://www.zomato.com/bangalore/mangalore-lunch-home-basaveshwara-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/8/19124358/d5f201ad66543047497ead54d5abafcf_o2_featured_v2.jpeg
+251,Egg Corner,https://www.zomato.com/bangalore/egg-corner-vijay-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/9/19849079/44ed1374596f7e0905a0fe1b63a15328_o2_featured_v2.jpg
+252,Kakal Kai Ruchi,https://www.zomato.com/bangalore/kakal-kai-ruchi-rajajinagar-bangalore/order,https://b.zmtcdn.com/data/pictures/1/20798591/d4899418f6acaa87a7a161d94636f6a4_o2_featured_v2.jpg
+253,Nammur Donne Biryani,https://www.zomato.com/bangalore/nammur-donne-biryani-frazer-town-bangalore/order,https://b.zmtcdn.com/data/pictures/4/19866094/dd13e3406c0b87b8e5caec2d55ad427b_o2_featured_v2.jpg
+254,Ande Ka Funda,https://www.zomato.com/bangalore/ande-ka-funda-2-btm-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/1/53311/51e158e2050489f2d680cfa56ea18198_o2_featured_v2.jpg
+255,Church Street Social,https://www.zomato.com/ChurchStreetSocial/order,https://b.zmtcdn.com/data/pictures/chains/8/57438/c542f09c9cdf291317bf4dc6fe240045_o2_featured_v2.jpg
+256,Hotel Karavali Food Point,https://www.zomato.com/bangalore/hotel-karavali-food-point-vijay-nagar/order,https://b.zmtcdn.com/data/pictures/4/18503724/1fef7179a2c2677cf8132ea2571b99b8_o2_featured_v2.jpg
+257,Shanthi Sagar,https://www.zomato.com/bangalore/shanthi-sagar-basaveshwara-nagar/order,https://b.zmtcdn.com/data/pictures/8/18418538/a4b29277fda825f1436e1cd2a9a5bf4a_o2_featured_v2.jpg
+258,Peetuk,https://www.zomato.com/bangalore/peetuk-domlur-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/5/19577875/c4768dc9260eaad9d08da87f13241f86_o2_featured_v2.jpg
+259,Sardarji Londonwaley,https://www.zomato.com/bangalore/sardarji-londonwaley-koramangala-7th-block-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/2/18718102/29cd9d7176f374102510ccddfac7e991_o2_featured_v2.jpg
+260,Madras Meal Company,https://www.zomato.com/bangalore/madras-meal-company-seshadripuram-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/7/19575357/15411a74b31b7c3d145c1980099d4cac_o2_featured_v2.jpg
+261,Donne Biriyani Mane,https://www.zomato.com/bangalore/donne-biriyani-mane-1-airport-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/3/18270203/c574870cc3bd68376d2d120ec9787eb1_o2_featured_v2.jpg
+262,Nammura Upachara,https://www.zomato.com/bangalore/nammura-upachara-basaveshwara-nagar/order,https://b.zmtcdn.com/data/pictures/2/18418532/dc5558ed8315b61f4a50cc91f7c79d7b_o2_featured_v2.jpg
+263,Indraprastha Restaurant,https://www.zomato.com/bangalore/indraprastha-restaurant-vijay-nagar/order,https://b.zmtcdn.com/data/pictures/8/54408/db9f3f2a34f79277c1809d602f47f329_o2_featured_v2.jpg
+264,Dum Biryani Hub,https://www.zomato.com/bangalore/dum-biryani-hub-btm-bangalore/order,https://b.zmtcdn.com/data/pictures/3/18791223/345fa7a04e620a74c0601872448f77aa_o2_featured_v2.jpg
+265,Adiga's,https://www.zomato.com/bangalore/adigas-majestic-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/2/52072/d735aca1aaa4a7ce3034358eb8550d7b_o2_featured_v2.jpeg
+266,Olio - The Wood Fired Pizzeria,https://www.zomato.com/bangalore/olio-the-wood-fired-pizzeria-vasanth-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/5/20243765/ee5b7ea6aaf1e7488e975e16612f4126_o2_featured_v2.jpg
+267,Bangalikhana,https://www.zomato.com/bangalore/bangalikhana-koramangala-7th-block-bangalore/order,https://b.zmtcdn.com/data/pictures/3/50063/c34aeb5fdb74cccfb474d8c6304067fd_o2_featured_v2.jpg
+268,Kolkata Famous Kati Rolls,https://www.zomato.com/bangalore/kolkata-famous-kati-rolls-city-market-bangalore/order,https://b.zmtcdn.com/data/pictures/0/19802370/88d9c23ceb43d0296b053d32757c3667_o2_featured_v2.jpg
+269,Chicken County Deluxe Restaurant,https://www.zomato.com/bangalore/chicken-county-deluxe-restaurant-majestic-bangalore/order,https://b.zmtcdn.com/data/pictures/3/58323/932ba88375afc5eb892eb6c4d32a79a1_o2_featured_v2.jpg
+270,Lulu Hypermarket,https://www.zomato.com/bangalore/lulu-hypermarket-rajajinagar-bangalore/order,https://b.zmtcdn.com/data/pictures/3/20082623/710d4fbd731970bba53a2e56b9b0a2fb_o2_featured_v2.jpg
+271,Chef Bakers,https://www.zomato.com/bangalore/chef-bakers-koramangala-7th-block-bangalore/order,https://b.zmtcdn.com/data/pictures/9/19131739/47fe607d9a47f0a184a9c2b8f7882005_o2_featured_v2.jpg
+272,Thenga Manga By Chef Pillai,https://www.zomato.com/bangalore/thenga-manga-by-chef-pillai-brigade-road-bangalore/order,https://b.zmtcdn.com/data/pictures/5/20793175/ea1a6e3dea8c9e5703f2ae6e8a430150_o2_featured_v2.jpg
+273,Delicacy,https://www.zomato.com/bangalore/delicacy-frazer-town/order,https://b.zmtcdn.com/data/pictures/chains/0/50360/cf530aebe103065d6878c3c001b315ea_o2_featured_v2.jpg
+274,Jai Bhavani Dhaba,https://www.zomato.com/bangalore/jai-bhavani-dhaba-indiranagar-bangalore/order,https://b.zmtcdn.com/data/pictures/4/19544664/a876302cc360f74b8b4e4195528e484c_o2_featured_v2.jpg
+275,The Cake Deluxe,https://www.zomato.com/bangalore/the-cake-deluxe-rajajinagar-bangalore/order,https://b.zmtcdn.com/data/pictures/1/19872631/9c86c4c5b95709fb2a1f197bde7ff646_o2_featured_v2.jpg
+276,TKS Iyengars,https://www.zomato.com/bangalore/tks-iyengars-1-basaveshwara-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/8/19154908/9dfb2fff1daf6afe367b32cfeaae4bea_o2_featured_v2.jpg
+277,Iyer Mess,https://www.zomato.com/bangalore/iyer-mess-malleshwaram/order,https://b.zmtcdn.com/data/pictures/chains/3/53893/14409eea43c7b8d8c744b8af00e80157_o2_featured_v2.jpg
+278,Oru Vadakkan Cafe,https://www.zomato.com/bangalore/oru-vadakkan-cafe-koramangala-5th-block-bangalore/order,https://b.zmtcdn.com/data/pictures/5/19086375/36b29c6f4c62164297b8acf27dd7a0d3_o2_featured_v2.jpg
+279,ibaco,https://www.zomato.com/bangalore/ibaco-brigade-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/8/53198/995145af92d5d5004cc7e180d4d104c1_o2_featured_v2.jpg
+280,Udupi Sri Krishnarajathadri,https://www.zomato.com/bangalore/udupi-sri-krishnarajathadri-malleshwaram-bangalore/order,https://b.zmtcdn.com/data/pictures/5/20622575/f70a0d1d288a41f0496bd9e30757e6dc_o2_featured_v2.jpg
+281,Kolkata Famous Kati Rolls,https://www.zomato.com/bangalore/kolkata-famous-kati-rolls-rt-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/6/18715236/d7e91e455ea7d74ec83c853607ae9765_o2_featured_v2.jpg
+282,Shaadi Ki Biryani Nousho Ka Naashta,https://www.zomato.com/bangalore/shaadi-ki-biryani-nousho-ka-naashta-hbr-layout-bangalore/order,https://b.zmtcdn.com/data/pictures/0/20037770/56ed24c2a43a10069e50784c6b4955ae_o2_featured_v2.jpg
+283,N Chef Restaurant,https://www.zomato.com/bangalore/n-chef-restaurant-brigade-road-bangalore/order,https://b.zmtcdn.com/data/pictures/4/20916104/24b0f943863bdf374b980d31b9ed549e_o2_featured_v2.jpg
+284,Zomoz - The Momo Company,https://www.zomato.com/bangalore/zomoz-the-momo-company-indiranagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/6/19466396/bd4963291693aa042930cdbcccc37033_o2_featured_v2.jpg
+285,Keventers - Milkshakes & Desserts,https://www.zomato.com/bangalore/keventers-milkshakes-desserts-brigade-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/1/18547761/8378ed3941e543d0a11e8d49c1e7d198_o2_featured_v2.jpg
+286,Nisarga,https://www.zomato.com/bangalore/nisarga-vijay-nagar/order,https://b.zmtcdn.com/data/pictures/7/51487/ae9c8c6f23c572aa7e157b21b4f0db25_o2_featured_v2.jpg
+287,Kabab Biryani Corner,https://www.zomato.com/bangalore/kabab-biryani-corner-richmond-road-bangalore/order,https://b.zmtcdn.com/data/pictures/0/19360780/1c03656d2a074dcc30236e09461a8772_o2_featured_v2.jpg
+288,Rajdhani,https://www.zomato.com/bangalore/rajdhani-1-malleshwaram-bangalore/order,https://b.zmtcdn.com/data/pictures/0/51240/7ae5cb8bf7d868264b45a2864a4b9a45_o2_featured_v2.jpg
+289,Marwadi Chaat Tiffin Services,https://www.zomato.com/bangalore/marwadi-chaat-tiffin-services-rajajinagar-bangalore/order,https://b.zmtcdn.com/data/pictures/3/19603413/2fabf429fc0d523d1aa247adec60ee26_o2_featured_v2.jpg
+290,Protein Chef,https://www.zomato.com/bangalore/protein-chef-indiranagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/2/20339032/ceaa52600c1d694d38496f18a66270a5_o2_featured_v2.jpg
+291,Basaveshwar Khanavali,https://www.zomato.com/bangalore/basaveshwar-khanavali-2-residency-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/9/18715939/1a868fa1153a73162aabb9583e13f64f_o2_featured_v2.jpg
+292,FNP Cakes By Ferns N Petals,https://www.zomato.com/bangalore/fnp-cakes-by-ferns-n-petals-1-malleshwaram-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/1/19061431/031898efa82d2dfd6ffa6ddea76ec001_o2_featured_v2.jpg
+293,Motis Kitchen,https://www.zomato.com/bangalore/motis-kitchen-thippasandra/order,https://b.zmtcdn.com/data/pictures/1/54411/efe4d80ddf924a8ee78b73acd7cd1ff1_o2_featured_v2.jpg
+294,Firangi Bake,https://www.zomato.com/bangalore/firangi-bake-1-shanti-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/1/19813421/3a632f0717147963d72926327cedf837_o2_featured_v2.jpg
+295,Louis Burger,https://www.zomato.com/bangalore/louis-burger-koramangala-7th-block-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/6/20196776/c9430e43c295a274f0a35dcbde09041c_o2_featured_v2.jpg
+296,Asha Food Camp,https://www.zomato.com/bangalore/asha-food-camp-malleshwaram/order,https://b.zmtcdn.com/data/pictures/8/51968/584bff0733e393347fc8c07008c1e464_o2_featured_v2.jpg
+297,Express By ABs,https://www.zomato.com/bangalore/express-by-abs-koramangala-5th-block-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/1/19274791/ac88653ca89df54613fbb9278189e48f_o2_featured_v2.jpg
+298,Burger Elite,https://www.zomato.com/bangalore/burger-elite-rajajinagar-bangalore/order,https://b.zmtcdn.com/data/pictures/9/19979539/7ac1f1de3f2bb419ac8d8c833410254d_o2_featured_v2.jpg
+299,Donne Biryani Palace,https://www.zomato.com/bangalore/donne-biryani-palace-btm-bangalore/order,https://b.zmtcdn.com/data/pictures/9/19265539/3373f8899656829e582210f618193483_o2_featured_v2.jpg
+300,Bengali Fun Foods,https://www.zomato.com/bangalore/bengali-fun-foods-btm-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/9/18807829/486f979b9a51bfa101ef16c17cee87cf_o2_featured_v2.jpg
+301,Gokul Veg,https://www.zomato.com/bangalore/gokul-veg-basavanagudi/order,https://b.zmtcdn.com/data/pictures/chains/5/53045/529544ff702575d85a46df1a3472423c_o2_featured_v2.jpg
+302,1947,https://www.zomato.com/bangalore/1947-malleshwaram/order,https://b.zmtcdn.com/data/pictures/chains/1/50001/48b4b81e62cbbf6f5ef554ecd11cb83f_o2_featured_v2.jpg
+303,The Dessert Zone,https://www.zomato.com/bangalore/the-dessert-zone-vasanth-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/1/19808041/e565f051e03ee22fe5ede29783e34907_o2_featured_v2.jpg
+304,Green Pepper,https://www.zomato.com/bangalore/green-pepper-indiranagar-bangalore/order,https://b.zmtcdn.com/data/pictures/7/59027/d314128ec527f794aee401d39e7c4818_o2_featured_v2.jpg
+305,Vishnu Garden,https://www.zomato.com/bangalore/vishnu-garden-rt-nagar/order,https://b.zmtcdn.com/data/pictures/2/18489132/0a9e5880fd1de8defde9a6917fa5280f_o2_featured_v2.jpg
+306,UBQ by Barbeque Nation,https://www.zomato.com/bangalore/ubq-by-barbeque-nation-ulsoor-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/5/18856895/073c15ec4483d1fe0f30ecbac37ef440_o2_featured_v2.jpg
+307,Bob's Bar,https://www.zomato.com/bangalore/bobs-bar-koramangala-7th-block-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/3/18816683/7465ff33161187047894d84844a1bbd6_o2_featured_v2.jpg
+308,Oh! Calcutta,https://www.zomato.com/bangalore/oh-calcutta-church-street-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/0/58720/0cb3edb7647ab3be4785f6fef7e8a023_o2_featured_v2.jpg
+309,ITC Sunfeast Baked Creations,https://www.zomato.com/bangalore/itc-sunfeast-baked-creations-commercial-street-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/6/19704506/49d091670087be4f8e331cf3a67ce881_o2_featured_v2.jpg
+310,The Dessert Heaven - Pure Veg,https://www.zomato.com/bangalore/the-dessert-heaven-pure-veg-hosur-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/5/20005245/3b0a9026db528af0f6ef94d7db964d7b_o2_featured_v2.jpg
+311,Chung Wah,https://www.zomato.com/bangalore/chung-wah-residency-road/order,https://b.zmtcdn.com/data/pictures/0/50270/e9c80194d895b37096f5779cc6120278_o2_featured_v2.jpg
+312,HRX by EatFit,https://www.zomato.com/bangalore/hrx-by-eatfit-cunningham-road-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/9/19841469/4d99230c365cc95ef89a9b3487e9a564_o2_featured_v2.jpg
+313,O4H - Order For Health,https://www.zomato.com/bangalore/o4h-order-for-health-btm-bangalore/order,https://b.zmtcdn.com/data/pictures/1/19522781/822848b785452b90675f471d42d0b92b_o2_featured_v2.jpg
+314,Mushroom Donne Biryani Adda,https://www.zomato.com/bangalore/mushroom-donne-biryani-adda-jayanagar-bangalore/order,https://b.zmtcdn.com/data/pictures/6/20746216/d408f898c89bb5c5380e155bb33b81ed_o2_featured_v2.jpg
+315,Andhra Kitchen,https://www.zomato.com/bangalore/andhra-kitchen-btm/order,https://b.zmtcdn.com/data/pictures/chains/5/18362405/13528123ca95463b212f43e7b5d5e4df_o2_featured_v2.jpg
+316,Bucket Biryani,https://www.zomato.com/bangalore/bucket-biryani-brigade-road-bangalore/order,https://b.zmtcdn.com/data/pictures/8/19684998/baa8f4e76f9681da7eeb360b1c440d25_o2_featured_v2.jpg
+317,Yummy Sip N Bites,https://www.zomato.com/bangalore/yummy-sip-n-bites-basaveshwara-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/6/20643306/78c8251aaf0e44d612c932b6bf2732fc_o2_featured_v2.jpg
+318,Mayuri,https://www.zomato.com/bangalore/mayuri-1-jp-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/5/19294965/967c26da0cc41caaa69eabb701d34848_o2_featured_v2.jpg
+319,No.10 Fort Cochin,https://www.zomato.com/bangalore/no-10-fort-cochin-st-marks-road-bangalore/order,https://b.zmtcdn.com/data/pictures/6/61476/f2c486c2c789d4b475247e823bc67dce_o2_featured_v2.jpg
+320,Lo! - Low Carb And Keto Foods,https://www.zomato.com/bangalore/lo-low-carb-and-keto-foods-indiranagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/4/19131494/b31b3a86311a8477a530c70cede99813_o2_featured_v2.jpg
+321,By 2 Coffee,https://www.zomato.com/bangalore/by-2-coffee-basavanagudi-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/5/57785/f740afcf238de216c20e412cce84b91c_o2_featured_v2.jpg
+322,Razakhiya Hotel,https://www.zomato.com/bangalore/razakhiya-hotel-hbr-layout-bangalore/order,https://b.zmtcdn.com/data/pictures/4/18756414/d401a4d568926cf73a227b0d643d8529_o2_featured_v2.jpg
+323,Cheesecake & Co.,https://www.zomato.com/bangalore/cheesecake-co-indiranagar-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/3/20254383/dff4051233ea432b70872d6ebea13517_o2_featured_v2.jpg
+324,Deccan Paradise,https://www.zomato.com/bangalore/deccan-paradise-2-majestic-bangalore/order,https://b.zmtcdn.com/data/pictures/4/20923764/e5f6d50f14778a7621394d9e93ce99e0_o2_featured_v2.jpg
+325,Agrawal's Kitchen,https://www.zomato.com/bangalore/agrawals-kitchen-btm-bangalore/order,https://b.zmtcdn.com/data/pictures/0/20481650/dba3bfa173ec4b566fbc248bc3c406c3_o2_featured_v2.jpg
+326,Odia Khaiba,https://www.zomato.com/bangalore/odia-khaiba-airport-road-bangalore/order,https://b.zmtcdn.com/data/pictures/4/19428574/b3a47ed26a54a177637281f3c4b1e103_o2_featured_v2.jpg
+327,Cream Stone Ice Cream,https://www.zomato.com/bangalore/cream-stone-ice-cream-frazer-town-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/6/59536/478ebd9d415f56fbe5e7490a1ee67060_o2_featured_v2.jpg
+328,The Momo Co.,https://www.zomato.com/bangalore/the-momo-co-hosur-road-bangalore/order,https://b.zmtcdn.com/data/pictures/2/19786592/fadba3618ff500083afce92ad6531085_o2_featured_v2.jpg
+329,Sri Krishna Sweets,https://www.zomato.com/bangalore/sri-krishna-sweets-malleshwaram/order,https://b.zmtcdn.com/data/pictures/chains/7/57107/7c9899b2160940538d3b9eb83c197bd5_o2_featured_v2.jpg
+330,Chinese BAE,https://www.zomato.com/bangalore/chinese-bae-btm-bangalore/order,https://b.zmtcdn.com/data/pictures/chains/2/19319832/7bba320cd66ddc6cb7fbffb5d6a5132d_o2_featured_v2.jpg
+331,Srinidhi Sagar,https://www.zomato.com/bangalore/srinidhi-sagar-airport-road/order,https://b.zmtcdn.com/data/pictures/chains/3/53103/04e2bf17415c71dc6853506aface1e63_o2_featured_v2.jpg
+332,Umpire Chicken County,https://www.zomato.com/bangalore/umpire-chicken-county-richmond-road-bangalore/order,https://b.zmtcdn.com/data/pictures/7/19767627/29e22126e4f3d796f6a05b6c1b1c6bd8_o2_featured_v2.jpg
+333,Yummy Sip N Bites,https://www.zomato.com/bangalore/yummy-sip-n-bites-vijay-nagar-bangalore/order,https://b.zmtcdn.com/data/pictures/3/19731283/b6d5a30f5a34afc7478c77c5bcd07444_o2_featured_v2.jpg
+334,Litti Twist,https://www.zomato.com/bangalore/litti-twist-btm/order,
+335,Salad Days,https://www.zomato.com/bangalore/salad-days-indiranagar-bangalore/order,
+336,Cupcake Bliss Cakes & Desserts,https://www.zomato.com/bangalore/cupcake-bliss-cakes-desserts-vasanth-nagar-bangalore/order,
+337,Singh Da Punjabi Dhaba,https://www.zomato.com/bangalore/singh-da-punjabi-dhaba-koramangala-7th-block-bangalore/order,
+338,Five Star New Ambur Biryani,https://www.zomato.com/bangalore/five-star-new-ambur-biryani-btm-bangalore/order,
+339,New Alameen Restaurant,https://www.zomato.com/bangalore/new-alameen-restaurant-ulsoor-bangalore/order,
+340,Kaati Zone Rolls and Wraps,https://www.zomato.com/bangalore/kaati-zone-rolls-and-wraps-vasanth-nagar-bangalore/order,
+341,Ghee and Turmeric,https://www.zomato.com/bangalore/ghee-and-turmeric-cunningham-road-bangalore/order,
+342,Banchharam's,https://www.zomato.com/bangalore/banchharams-ulsoor-bangalore/order,
+343,Banashankari Donne Biriyani,https://www.zomato.com/bangalore/banashankari-donne-biriyani-banashankari/order,
+344,ATH - All Things Healthy!,https://www.zomato.com/bangalore/ath-all-things-healthy-indiranagar-bangalore/order,
+345,Halli Mane Donne Biriyani,https://www.zomato.com/bangalore/halli-mane-donne-biriyani-rajajinagar-bangalore/order,
+346,NOTO - Ice Creams & Desserts,https://www.zomato.com/bangalore/noto-ice-creams-desserts-richmond-road-bangalore/order,
+347,Nando's,https://www.zomato.com/bangalore/nandos-brigade-road-bangalore/order,
+348,Restaurant Chef Pillai,https://www.zomato.com/bangalore/restaurant-chef-pillai-brigade-road-bangalore/order,
+349,Brik Oven,https://www.zomato.com/bangalore/brik-oven-church-street/order,
+350,Rajanna Military Hotel,https://www.zomato.com/bangalore/rajanna-military-hotel-7-vijay-nagar-bangalore/order,
+351,XO Belgian Waffle,https://www.zomato.com/bangalore/xo-belgian-waffle-koramangala-5th-block/order,
+352,OOttupura,https://www.zomato.com/bangalore/oottupura-btm-bangalore/order,
+353,Sri Vishnu Park,https://www.zomato.com/bangalore/sri-vishnu-park-shanti-nagar-bangalore/order,
+354,Al Zara Mandi Arabian Restaurant,https://www.zomato.com/bangalore/al-zara-mandi-arabian-restaurant-frazer-town-bangalore/order,
+355,Bhattara Bhojana,https://www.zomato.com/bangalore/bhattara-bhojana-banashankari/order,
+356,Suryawanshi,https://www.zomato.com/bangalore/suryawanshi-indiranagar/order,
+357,KC Das,https://www.zomato.com/bangalore/kc-das-st-marks-road-bangalore/order,
+358,PVR Café,https://www.zomato.com/bangalore/pvr-caf%C3%A9-koramangala-7th-block-bangalore/order,
+359,Hotel Chandrika,https://www.zomato.com/bangalore/hotel-chandrika-cunningham-road-bangalore/order,
+360,Udupi Ruchi,https://www.zomato.com/bangalore/udupi-ruchi-1-rajajinagar-bangalore/order,
+361,Sagar Hotel,https://www.zomato.com/bangalore/sagar-hotel-rajajinagar/order,
+362,Pasta Street,https://www.zomato.com/bangalore/pasta-street-cunningham-road/order,
+363,Chopstick,https://www.zomato.com/bangalore/chopstick-btm-bangalore/order,
+364,Cafe Coffee Day,https://www.zomato.com/bangalore/cafe-coffee-day-1-brigade-road-bangalore/order,
+365,Huliyappa's Donne Biryani,https://www.zomato.com/bangalore/huliyappas-donne-biryani-rt-nagar/order,
+366,The Grand Hyderabad Biryani Restaurant,https://www.zomato.com/bangalore/the-grand-hyderabad-biryani-restaurant-frazer-town-bangalore/order,
+367,Delhi Restaurant & Chaat,https://www.zomato.com/bangalore/delhi-restaurant-chaat-rt-nagar-bangalore/order,
+368,Art of Delight,https://www.zomato.com/bangalore/art-of-delight-residency-road/order,
+369,Donne Biriyani Mane,https://www.zomato.com/bangalore/donne-biriyani-mane-basaveshwara-nagar/order,
+370,Shawarma Time,https://www.zomato.com/bangalore/shawarma-time-1-rt-nagar-bangalore/order,
+371,Castle Restaurant,https://www.zomato.com/bangalore/castle-restaurant-btm-bangalore/order,
+372,Hotel Salala,https://www.zomato.com/bangalore/hotel-salala-airport-road/order,
+373,Biryani Crafts,https://www.zomato.com/bangalore/biryani-crafts-btm-bangalore/order,
+374,Siddique Kabab Centre,https://www.zomato.com/bangalore/siddique-kabab-centre-frazer-town/order,
+375,Samosa Singh,https://www.zomato.com/bangalore/samosa-singh-brigade-road-bangalore/order,
+376,Indus Family Restaurant,https://www.zomato.com/bangalore/indus-family-restaurant-btm/order,
+377,Texas Burgers,https://www.zomato.com/bangalore/texas-burgers-thippasandra-bangalore/order,
+378,Shuchi Ruchi,https://www.zomato.com/bangalore/shuchi-ruchi-malleshwaram/order,
+379,Bhole Ke Chole By Dil Foods,https://www.zomato.com/bangalore/bhole-ke-chole-by-dil-foods-brigade-road-bangalore/order,
+380,Prasuma Momo Kitchen,https://www.zomato.com/bangalore/prasuma-momo-kitchen-koramangala-7th-block-bangalore/order,
+381,Taj Hotel,https://www.zomato.com/bangalore/taj-hotel-shivajinagar/order,
+382,Sukh Sagar,https://www.zomato.com/bangalore/sukh-sagar-majestic/order,
+383,Purani Dilli By Anand Sweets,https://www.zomato.com/bangalore/purani-dilli-by-anand-sweets-commercial-street-bangalore/order,
+384,Living Bowls,https://www.zomato.com/bangalore/living-bowls-koramangala-7th-block-bangalore/order,
+385,Green Cravings,https://www.zomato.com/bangalore/green-cravings-richmond-road-bangalore/order,
+386,Akshatha Biryani,https://www.zomato.com/bangalore/akshatha-biryani-rt-nagar-bangalore/order,
+387,Just Shawarma,https://www.zomato.com/bangalore/just-shawarma-indiranagar-bangalore/order,
+388,Madno - House of Sundaes,https://www.zomato.com/bangalore/madno-house-of-sundaes-brigade-road-bangalore/order,
+389,Shanthi Sagar,https://www.zomato.com/bangalore/shanthi-sagar-jp-nagar/order,
+390,Basaveshwarnagar Dosa Corner,https://www.zomato.com/bangalore/basaveshwarnagar-dosa-corner-basaveshwara-nagar/order,
+391,Kottayam The Restaurant,https://www.zomato.com/bangalore/kottayam-the-restaurant-koramangala-5th-block-bangalore/order,
+392,Kunafa World,https://www.zomato.com/bangalore/kunafa-world-frazer-town-bangalore/order,
+393,Rang De Basanti Dhaba,https://www.zomato.com/bangalore/rang-de-basanti-dhaba-domlur-bangalore/order,
+394,Sattvam,https://www.zomato.com/bangalore/sattvam-sadashiv-nagar/order,
+395,Just Cakes,https://www.zomato.com/bangalore/just-cakes-koramangala-7th-block-bangalore/order,
+396,Savoury - Sea Shell Restaurant,https://www.zomato.com/bangalore/savoury-sea-shell-restaurant-btm-bangalore/order,
+397,Karavali Lunch Home,https://www.zomato.com/bangalore/karavali-lunch-home-malleshwaram/order,
+398,Sendhoor Coffee,https://www.zomato.com/bangalore/sendhoor-coffee-jeevan-bhima-nagar-bangalore/order,
+399,Chichaba's Taj,https://www.zomato.com/bangalore/chichabas-taj-frazer-town/order,
+400,SLV Corner Restaurant,https://www.zomato.com/bangalore/slv-corner-restaurant-basavanagudi/order,
+401,Smoke House Deli,https://www.zomato.com/SmokeHouseDeli-LavelleRoad/order,
+402,Rolls Kitchen,https://www.zomato.com/bangalore/rolls-kitchen-langford-town-bangalore/order,
+403,Tasty Magic,https://www.zomato.com/bangalore/tasty-magic-btm/order,
+404,The Cake Fancy,https://www.zomato.com/bangalore/the-cake-fancy-rajajinagar-bangalore/order,
+405,Ultimate Parathas,https://www.zomato.com/bangalore/ultimate-parathas-btm-bangalore/order,
+406,Trattoria by Toscano,https://www.zomato.com/bangalore/trattoria-by-toscano-church-street-bangalore/order,
+407,Kullad Cafe,https://www.zomato.com/bangalore/kullad-cafe-btm/order,
+408,Roti Tawa Ki,https://www.zomato.com/bangalore/roti-tawa-ki-koramangala-6th-block-bangalore/order,
+409,The Hole In The Wall Cafe,https://www.zomato.com/bangalore/the-hole-in-the-wall-cafe-2-indiranagar-bangalore/order,
+410,Sri Krishna Sagar,https://www.zomato.com/bangalore/sri-krishna-sagar-2-btm/order,
+411,Roti Sabji.Com,https://www.zomato.com/bangalore/roti-sabji-com-1-btm-bangalore/order,
+412,Momo Zone - The Momo Company,https://www.zomato.com/bangalore/momo-zone-the-momo-company-vasanth-nagar-bangalore/order,
+413,Seoul Mate Korean Burger,https://www.zomato.com/bangalore/seoul-mate-korean-burger-koramangala-7th-block-bangalore/order,
+414,Karnataka Biriyani Point,https://www.zomato.com/bangalore/karnataka-biriyani-point-malleshwaram-bangalore/order,
+415,Santhanam Sweets & Savouries,https://www.zomato.com/bangalore/santhanam-sweets-savouries-commercial-street-bangalore/order,
+416,You Mee,https://www.zomato.com/bangalore/you-mee-malleshwaram-bangalore/order,
+417,Rajasthani Taj Restaurant,https://www.zomato.com/bangalore/rajasthani-taj-restaurant-btm-bangalore/order,
+418,Roti Walaa,https://www.zomato.com/bangalore/roti-walaa-koramangala-5th-block-bangalore/order,
+419,Sri Nidhi Sagar,https://www.zomato.com/bangalore/sri-nidhi-sagar-domlur-bangalore/order,
+420,Mallu Family Restaurant,https://www.zomato.com/bangalore/mallu-family-restaurant-btm-bangalore/order,
+421,Ganesh Food Joint,https://www.zomato.com/bangalore/ganesh-food-joint-frazer-town/order,
+422,Pai Vihar,https://www.zomato.com/bangalore/pai-vihar-city-market/order,
+423,Biryani Canteen,https://www.zomato.com/bangalore/biryani-canteen-rajajinagar-bangalore/order,
+424,Gowda's Biriyani Corner,https://www.zomato.com/bangalore/gowdas-biriyani-corner-vijay-nagar-bangalore/order,
+425,Hotel Prakruthi,https://www.zomato.com/bangalore/hotel-prakruthi-vijay-nagar/order,
+426,NH8,https://www.zomato.com/bangalore/nh8-indiranagar/order,
+427,Calcutta Victoria Chat House,https://www.zomato.com/bangalore/calcutta-victoria-chat-house-jeevan-bhima-nagar/order,
+428,Hotel Moonlight,https://www.zomato.com/bangalore/hotel-moonlight-1-malleshwaram/order,
+429,China Pearl,https://www.zomato.com/bangalore/china-pearl-koramangala-6th-block/order,
+430,The Purple Pan,https://www.zomato.com/thepurplepan/order,
+431,Fresh Bites,https://www.zomato.com/bangalore/fresh-bites-indiranagar-bangalore/order,
+432,Khichdi Bar By Dil Foods,https://www.zomato.com/bangalore/khichdi-bar-by-dil-foods-brigade-road-bangalore/order,
+433,The Salad Studio,https://www.zomato.com/bangalore/the-salad-studio-indiranagar-bangalore/order,
+434,Shaap,https://www.zomato.com/bangalore/shaap-indiranagar/order,
+435,Hotel Annapoorna,https://www.zomato.com/bangalore/hotel-annapoorna-majestic/order,
+436,Rotti Mane,https://www.zomato.com/bangalore/rotti-mane-basaveshwara-nagar-bangalore/order,
+437,Punjab Grill,https://www.zomato.com/bangalore/punjab-grill-brigade-road-bangalore/order,
+438,Raj Donne Biriyani Mane,https://www.zomato.com/bangalore/raj-donne-biriyani-mane-rajajinagar-bangalore/order,
+439,Boss Burger,https://www.zomato.com/bangalore/boss-burger-lavelle-road-bangalore/order,
+440,Mane Holige Kuruku Thindi,https://www.zomato.com/bangalore/mane-holige-kuruku-thindi-jayanagar-bangalore/order,
+441,Apsara Ice Creams,https://www.zomato.com/bangalore/apsara-ice-creams-koramangala-5th-block-bangalore/order,
+442,La Heaven,https://www.zomato.com/bangalore/la-heaven-malleshwaram-bangalore/order,
+443,Green Onion,https://www.zomato.com/bangalore/green-onion-residency-road/order,
+444,Galli Kitchen,https://www.zomato.com/bangalore/galli-kitchen-1-banashankari-bangalore/order,
+445,Rosy Roti,https://www.zomato.com/bangalore/rosy-roti-domlur-bangalore/order,
+446,Kolkata Sholoana,https://www.zomato.com/bangalore/kolkata-sholoana-btm-bangalore/order,
+447,Donburi,https://www.zomato.com/bangalore/donburi-richmond-town-bangalore/order,
+448,Rahhams,https://www.zomato.com/bangalore/rahhams-frazer-town-bangalore/order,
+449,Sree Venkateswara Foods & SVSS Biryani,https://www.zomato.com/bangalore/sree-venkateswara-foods-svss-biryani-indiranagar-bangalore/order,
+450,Malabar Food Cafe,https://www.zomato.com/bangalore/malabar-food-cafe-btm-bangalore/order,
+451,Milano Ice Cream,https://www.zomato.com/bangalore/milano-ice-cream-indiranagar/order,
+452,Mini Punjabi Dhaba,https://www.zomato.com/bangalore/mini-punjabi-dhaba-banashankari/order,
+453,Karavali Fine Dine,https://www.zomato.com/bangalore/karavali-fine-dine-koramangala-7th-block-bangalore/order,
+454,Prasidhi Food Corner,https://www.zomato.com/bangalore/prasidhi-food-corner-jp-nagar-bangalore/order,
+455,Tea Day,https://www.zomato.com/bangalore/tea-day-1-jp-nagar-bangalore/order,
+456,RS Shiv Sagar,https://www.zomato.com/bangalore/rs-shiv-sagar-mg-road/order,
+457,Hotel Green Tara,https://www.zomato.com/bangalore/hotel-green-tara-brigade-road/order,
+458,Malabar - Quality Inn,https://www.zomato.com/bangalore/malabar-quality-inn-jeevan-bhima-nagar-bangalore/order,
+459,Sai Cafe Veg,https://www.zomato.com/bangalore/sai-cafe-veg-malleshwaram-bangalore/order,
+460,Bhojohori Manna,https://www.zomato.com/bangalore/bhojohori-manna-koramangala-6th-block/order,
+461,Crusto's - Cheese Burst Pizza,https://www.zomato.com/bangalore/crustos-cheese-burst-pizza-vasanth-nagar-bangalore/order,
+462,Biriyani Treat,https://www.zomato.com/bangalore/biriyani-treat-basaveshwara-nagar-bangalore/order,
+463,Ultimate MealBox,https://www.zomato.com/bangalore/ultimate-mealbox-btm-bangalore/order,
+464,Bathinda Junction,https://www.zomato.com/bangalore/bathinda-junction-koramangala-7th-block-bangalore/order,
+465,Karnataka Biryani Point,https://www.zomato.com/bangalore/karnataka-biryani-point-rajajinagar-bangalore/order,
+466,Dawat Durbar,https://www.zomato.com/bangalore/dawat-durbar-shivajinagar-bangalore/order,
+467,Punjabi Pure Veg Restaurant Since 1994,https://www.zomato.com/bangalore/punjabi-pure-veg-restaurant-since-1994-1-majestic-bangalore/order,
+468,LM Paradise Cuisines And Cafe,https://www.zomato.com/bangalore/lm-paradise-cuisines-and-cafe-rt-nagar-bangalore/order,
+469,Chung's Chinese Corner,https://www.zomato.com/bangalore/chungs-chinese-corner-cunningham-road/order,
+470,Burger Seigneur,https://www.zomato.com/bangalore/burger-seigneur-church-street-bangalore/order,
+471,Burnout Cafe,https://www.zomato.com/bangalore/burnout-cafe-infantry-road-bangalore/order,
+472,"Ovenfresh Pizzas, Cakes and Desserts",https://www.zomato.com/bangalore/ovenfresh-pizzas-cakes-and-desserts-indiranagar-bangalore/order,
+473,Mayura 1989 Andhra Speciality Restaurant,https://www.zomato.com/bangalore/mayura-1989-andhra-speciality-restaurant-rajajinagar-bangalore/order,
+474,Grameen Kulfi,https://www.zomato.com/bangalore/grameen-kulfi-rajajinagar-bangalore/order,
+475,Kabab Magic Roll,https://www.zomato.com/bangalore/kabab-magic-roll-1-richmond-road-bangalore/order,
+476,Indiana Burgers,https://www.zomato.com/bangalore/indiana-burgers-vasanth-nagar-bangalore/order,
+477,Rajasthani Dhaba,https://www.zomato.com/bangalore/rajasthani-dhaba-shanti-nagar-bangalore/order,
+478,Wholesome Bowlsome,https://www.zomato.com/bangalore/wholesome-bowlsome-thippasandra-bangalore/order,
+479,Bheema's,https://www.zomato.com/bangalore/bheemas-church-street/order,
+480,Mainland China,https://www.zomato.com/bangalore/mainland-china-church-street/order,
+481,Udupi Aatithya,https://www.zomato.com/bangalore/udupi-aatithya-btm-bangalore/order,
+482,The Brooklyn Creamery - Healthy Ice Cream,https://www.zomato.com/bangalore/the-brooklyn-creamery-healthy-ice-cream-seshadripuram-bangalore/order,
+483,Sultan,https://www.zomato.com/bangalore/sultan-btm-bangalore/order,
+484,Vijayanagar Vaibhav,https://www.zomato.com/bangalore/vijayanagar-vaibhav-vijay-nagar-bangalore/order,
+485,Dunkin' - Donuts & Coffee,https://www.zomato.com/bangalore/dunkin-donuts-coffee-indiranagar-bangalore/order,
+486,Venu's Donne Biriyani,https://www.zomato.com/bangalore/venus-donne-biriyani-btm-bangalore/order,
+487,Antarastriya,https://www.zomato.com/antarastriya/order,
+488,Prakriti Delux,https://www.zomato.com/bangalore/prakriti-delux-rajajinagar-bangalore/order,
+489,C. K. Mega Hot Food,https://www.zomato.com/bangalore/c-k-mega-hot-food-btm/order,
+490,Rolls Mania,https://www.zomato.com/bangalore/rolls-mania-st-marks-road-bangalore/order,
+491,Momoz,https://www.zomato.com/bangalore/momoz-btm/order,
+492,Nano Duzi,https://www.zomato.com/bangalore/nano-duzi-hosur-road-bangalore/order,
+493,Indian Chicken Biriyani Point,https://www.zomato.com/bangalore/indian-chicken-biriyani-point-vijay-nagar-bangalore/order,
+494,Kamat Bugle Rock,https://www.zomato.com/bangalore/kamat-bugle-rock-basavanagudi/order,
+495,Sri Udupi Grand,https://www.zomato.com/bangalore/sri-udupi-grand-shanti-nagar/order,
+496,Cafe Grill,https://www.zomato.com/bangalore/cafe-grill-jeevan-bhima-nagar/order,
+497,Caterspoint,https://www.zomato.com/bangalore/caterspoint-indiranagar-bangalore/order,
+498,Sri Udupi Swadista,https://www.zomato.com/bangalore/sri-udupi-swadista-jayanagar-bangalore/order,
+499,Karunadu Awesome Foods,https://www.zomato.com/bangalore/karunadu-awesome-foods-3-btm-bangalore/order,
+500,Chaatimes,https://www.zomato.com/bangalore/chaatimes-brigade-road-bangalore/order,
+501,Shahi Family Restaurant,https://www.zomato.com/bangalore/shahi-family-restaurant-ulsoor-bangalore/order,
+502,Hotel Revoli Inn,https://www.zomato.com/bangalore/hotel-revoli-inn-shanti-nagar-bangalore/order,
+503,A1 Ambur Chicken Biriyani Point,https://www.zomato.com/bangalore/a1-ambur-chicken-biriyani-point-yeshwantpur-bangalore/order,
+504,S R M Ambur Hot Dum Biriyani,https://www.zomato.com/bangalore/s-r-m-ambur-hot-dum-biriyani-btm-bangalore/order,
+505,Kulfi Shulfi - Bombay Kulfis,https://www.zomato.com/bangalore/kulfi-shulfi-bombay-kulfis-shanti-nagar-bangalore/order,
+506,Eat N Drink,https://www.zomato.com/bangalore/eat-n-drink-btm/order,
+507,Hotel Fanoos Since 1975,https://www.zomato.com/bangalore/hotel-fanoos-since-1975-richmond-road-bangalore/order,
+508,Hamza Hotel,https://www.zomato.com/bangalore/hamza-hotel-shivajinagar-bangalore/order,
+509,Karama Restaurant,https://www.zomato.com/bangalore/karama-restaurant-frazer-town/order,
+510,Kaippunnyam Restaurant,https://www.zomato.com/bangalore/kaippunnyam-restaurant-1-brigade-road-bangalore/order,
+511,Sweet Chariot Cafe,https://www.zomato.com/bangalore/sweet-chariot-cafe-residency-road/order,
+512,No Sugar Please!,https://www.zomato.com/bangalore/no-sugar-please-hosur-road-bangalore/order,
+513,Sree Banashankari Donne Biriyani,https://www.zomato.com/bangalore/sree-banashankari-donne-biriyani-basaveshwara-nagar-bangalore/order,
